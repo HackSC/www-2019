@@ -189,7 +189,7 @@ class Sponsors extends Component {
 					<h1>SPONSORS</h1>
 				</div>
 				<div className="row">
-					<h2>To be announced</h2>
+					<h2>TO BE ANNOUNCED</h2>
 				</div>
 			</div>
 		);

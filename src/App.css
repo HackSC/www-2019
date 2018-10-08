@@ -46,6 +46,13 @@
 	float: center;
 }
 
+.sponsors h2 {
+	vertical-align: center;
+	text-align: center;
+	font-size: 5em;
+	float: center;
+}
+
 .faq-header {
 	margin-top: -1em;
 	margin-bottom: 0.5em;
