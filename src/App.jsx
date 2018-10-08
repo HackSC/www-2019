@@ -14,7 +14,7 @@ class App extends Component {
 			<div>
 				<Splash />
 				<FAQ />
-				{/* <Sponsors /> */}
+				<Sponsors />
 			</div>
 		);
 	}
@@ -189,68 +189,7 @@ class Sponsors extends Component {
 					<h1>SPONSORS</h1>
 				</div>
 				<div className="row">
-					<img
-						style={{
-							maxWidth: "100vw",
-							display: "block",
-							margin: "auto",
-							height: "400px"
-						}}
-						alt="Microsoft"
-						src={microsoft}
-					/>
-				</div>
-				<div className="row">
-					<img
-						style={{
-							maxWidth: "100vw",
-							display: "block",
-							margin: "auto",
-							height: "200px"
-						}}
-						alt="mlh"
-						src={mlh}
-					/>
-					<img
-						style={{
-							maxWidth: "100vw",
-							display: "block",
-							margin: "auto",
-							height: "200px"
-						}}
-						alt="Google"
-						src={google}
-					/>
-					<img
-						style={{
-							maxWidth: "100vw",
-							display: "block",
-							margin: "auto",
-							height: "200px"
-						}}
-						alt="Esri"
-						src={esri}
-					/>
-					<img
-						style={{
-							maxWidth: "100vw",
-							display: "block",
-							margin: "auto",
-							height: "200px"
-						}}
-						alt="Heal"
-						src={heal}
-					/>
-					<img
-						style={{
-							maxWidth: "100vw",
-							display: "block",
-							margin: "auto",
-							height: "200px"
-						}}
-						alt="Ticketmaster"
-						src={ticketmaster}
-					/>
+					<h2>To be announced</h2>
 				</div>
 			</div>
 		);
