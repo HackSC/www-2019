@@ -14,7 +14,7 @@ class App extends Component {
 			<div>
 				<Splash />
 				<FAQ />
-				<Sponsors />
+				{/* <Sponsors /> */}
 			</div>
 		);
 	}
@@ -31,7 +31,7 @@ class Splash extends Component {
 							Welcome to Los Angeles, the warm and beautiful city of angels and
 							dreamers. On the University of Southern California campus this
 							fall, you are invited to a 36 hour technology hackathon that seeks
-							to change the future of our beloved city. Alongside 1,000 hackers
+							to change the future of our beloved city. Alongside 600+ hackers
 							and designers, you will re-imagine what a 21st century city should
 							look like and apply your ideas to the test.
 							<br />
@@ -43,13 +43,8 @@ class Splash extends Component {
 							<br />
 							<br />
 						</h3>
-						<a href="http://my.hacksc.com">
+						<a href="mailto:team@hacksc.com?subject=Interested in Getting Involved with HackSC">
 							<button type="button" className="apply">
-								APPLY NOW
-							</button>
-						</a>
-						<a href="sponsorship.pdf">
-							<button type="button" className="sponsor">
 								SPONSOR
 							</button>
 						</a>
@@ -64,12 +59,12 @@ class Splash extends Component {
 							<br />
 							START:
 							<br />
-							Friday, Oct 27th, 10PM
+							Friday, April 19th, 10PM
 							<br />
 							<br />
 							END:
 							<br />
-							Sunday, Oct 29th, 10AM
+							Sunday, April 21st, 10AM
 							<br />
 						</h3>
 					</div>
@@ -124,8 +119,7 @@ class FAQ extends Component {
 					<FAQEvent
 						question="Does it cost anything?"
 						answer="Nope! Admission is free for all hackers. This includes
-          food and drinks! The only thing you have to figure out is transportation. We will provide travel reimbursements
-          on a case by case basis."
+          food and drinks! The only thing you have to figure out is transportation."
 					/>
 					<FAQEvent
 						question="How do teams work?"
@@ -137,6 +131,10 @@ class FAQ extends Component {
 						question="What if my question isn't here?"
 						answer="You can message and/or email us your questions! Feel free
           to reach out to us at team@hacksc.com or on social media!"
+					/>
+					<FAQEvent
+						question="Travel Reimbursements?"
+						answer="Hope you like bus rides! We are sending buses up to the Bay and down to San Diego. Details to be finalized."
 					/>
 				</div>
 			</div>

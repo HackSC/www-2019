@@ -261,11 +261,9 @@ button.sponsor:hover {
 		bottom: 0;
 		left: 0;
 		pointer-events: none;
-		background-image: linear-gradient(
-			to bottom,
+		background-image: linear-gradient(to bottom,
 			rgba(255, 255, 255, 0),
-			rgba(255, 255, 255, 1) 90%
-		);
+			rgba(255, 255, 255, 1) 90%);
 		width: 100%;
 		height: 4em;
 	}
@@ -277,11 +275,9 @@ button.sponsor:hover {
 		top: 0;
 		left: 0;
 		pointer-events: none;
-		background-image: linear-gradient(
-			to top,
+		background-image: linear-gradient(to top,
 			rgba(255, 255, 255, 0),
-			rgba(255, 255, 255, 1) 90%
-		);
+			rgba(255, 255, 255, 1) 90%);
 		width: 100%;
 		height: 4em;
 	}
@@ -367,11 +363,9 @@ button.sponsor:hover {
 		bottom: 0;
 		left: 0;
 		pointer-events: none;
-		background-image: linear-gradient(
-			to bottom,
+		background-image: linear-gradient(to bottom,
 			rgba(255, 255, 255, 0),
-			rgba(255, 255, 255, 1) 90%
-		);
+			rgba(255, 255, 255, 1) 90%);
 		width: 100%;
 		height: 4em;
 	}
@@ -383,11 +377,9 @@ button.sponsor:hover {
 		top: 0;
 		left: 0;
 		pointer-events: none;
-		background-image: linear-gradient(
-			to top,
+		background-image: linear-gradient(to top,
 			rgba(255, 255, 255, 0),
-			rgba(255, 255, 255, 1) 90%
-		);
+			rgba(255, 255, 255, 1) 90%);
 		width: 100%;
 		height: 4em;
 	}
@@ -438,6 +430,7 @@ button.sponsor:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+
 	/* For desktop: */
 	.col-1 {
 		width: 8.33%;
