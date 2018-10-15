@@ -7,6 +7,7 @@ import ticketmaster from "./assets/ticketmaster.png";
 import mlh from "./assets/mlh.png";
 import "./App.css";
 import FadeIn from "react-fade-in";
+import ReactGA from 'react-ga'
 
 class App extends Component {
 	render() {
