@@ -20,6 +20,12 @@
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono:400, 700" rel="stylesheet">
+
+	<!-- Begin Mailchimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+	<!--End mc_embed_signup-->
+
 	<!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -28,7 +34,20 @@
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+		-->
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+	 data-dojo-config="usePlainJson: true, isDebug: true"></script>
+	<script type="text/javascript">
+		window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+			L.start({
+				"baseUrl": "mc.us19.list-manage.com",
+				"uuid": "f19216c3aa5a09e620d5b8828",
+				"lid": "3297e6b578",
+				"uniqueMethods": true
+			})
+		})
+
+	</script>
 	<title>Hack SC</title>
 </head>
 

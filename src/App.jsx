@@ -5,9 +5,11 @@ import esri from "./assets/esri.png";
 import heal from "./assets/heal.png";
 import ticketmaster from "./assets/ticketmaster.png";
 import mlh from "./assets/mlh.png";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
 import "./App.css";
 import FadeIn from "react-fade-in";
-import ReactGA from 'react-ga'
+import ReactGA from "react-ga";
 
 class App extends Component {
 	render() {
@@ -44,6 +46,7 @@ class Splash extends Component {
 							<br />
 							<br />
 						</h3>
+						{/* <SignUp /> */}
 						<a href="mailto:team@hacksc.com?subject=Interested in Getting Involved with HackSC">
 							<button type="button" className="apply">
 								SPONSOR
@@ -60,12 +63,12 @@ class Splash extends Component {
 							<br />
 							START:
 							<br />
-							Friday, April 19th, 10PM
+							Friday, April 12th, 10PM
 							<br />
 							<br />
 							END:
 							<br />
-							Sunday, April 21st, 10AM
+							Sunday, April 14st, 10AM
 							<br />
 						</h3>
 					</div>
@@ -193,6 +196,35 @@ class Sponsors extends Component {
 					<h2>TO BE ANNOUNCED</h2>
 				</div>
 			</div>
+		);
+	}
+}
+
+class SignUp extends Component {
+	url =
+		"//hacksc.us19.list-manage.com/subscribe/post?u=f19216c3aa5a09e620d5b8828&amp;id=3297e6b578";
+	render() {
+		return (
+			<MailchimpSubscribe
+				url={this.url}
+				render={({ subscribe, status, message }) => (
+					<div className="sign-up-form">
+						<form
+							onSubmit={formData => {
+								formData.preventDefault();
+								subscribe(formData);
+							}}>
+							<input
+								type="email"
+								className="input"
+								name="email"
+								placeholder="Email"
+							/>
+							<button type="submit" className="sign-up-button" />
+						</form>
+					</div>
+				)}
+			/>
 		);
 	}
 }
