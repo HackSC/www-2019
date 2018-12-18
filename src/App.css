@@ -500,7 +500,7 @@ button.sponsor:hover {
 	width: 100px;
 	height: 30px;
 	background-color: yellow;
-	font-family: "Space Mono", Monaco, Consolas, Courier-New, monospace;
+	font-family: "Space Mono", Monaco, Consolas, Courier-New, monospace !important;
 	font-weight: bold;
 	font-size: 24px;
 	pointer-events: auto;

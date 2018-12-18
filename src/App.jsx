@@ -68,7 +68,7 @@ class Splash extends Component {
 							<br />
 							END:
 							<br />
-							Sunday, April 14st, 10AM
+							Sunday, April 14th, 10AM
 							<br />
 						</h3>
 					</div>
