@@ -63,7 +63,7 @@ class CustomFormClean extends React.Component {
 					type="button"
 					class="btn btn--primary btn--inside uppercase"
 					onClick={this.onSubmit}>
-					Send
+					SIGN UP FOR UPDATES
 				</button>
 			</form>
 		);
