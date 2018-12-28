@@ -11,9 +11,9 @@ export class Splash extends React.Component {
 				<div className="splash-content" onClick={() => console.log("clicked")}>
 					<h3>
 						Welcome to Los Angeles, the warm and beautiful city of angels and
-						dreamers. On the University of Southern California campus this fall,
-						you are invited to a 36 hour technology hackathon that seeks to
-						change the future of our beloved city. Alongside 600+ hackers and
+						dreamers. On the University of Southern California campus this
+						spring, you are invited to a 36 hour technology hackathon that seeks
+						to change the future of our beloved city. Alongside 700+ hackers and
 						designers, you will re-imagine what a 21st century city should look
 						like and apply your ideas to the test.
 						<br />
