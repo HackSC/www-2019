@@ -127,7 +127,6 @@
 	z-index: -1;
 	background-image: url("assets/starbackground.jpg");
 	background-repeat: no-repeat;
-	vertical-align: middle;
 	display: block;
 	float: left;
 	-ms-background-size: cover;
@@ -137,21 +136,34 @@
 	background-size: cover;
 }
 
+.splash-top {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .splash-content {
 	color: white;
 	font-size: 1em;
-	width: 80%;
+	width: 90%;
 	float: center;
 	margin: 0 auto;
 	font-weight: normal;
 	padding-bottom: 200px;
 }
 
-.splash-logo {
-	padding-top: 20vh;
+.splash-logo-container {
 	width: 100%;
-	height: 400px;
-	float: left;
+	max-width: 400px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.splash-logo {
+	height: 200px;
+	width: 90%;
 	background-image: url("assets/hacksclogo.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -215,21 +227,17 @@ button.sponsor:hover {
 
 @media only screen and (min-width: 768px) {
 	.splash-logo {
-		padding-right: 50px;
-		margin-top: 10vh;
-		margin-left: 70px;
-		width: 40%;
-		height: 400px;
-		float: left;
 		background-image: url("assets/hacksclogovertical.png");
 		background-repeat: no-repeat;
-		background-position: right;
 		background-size: contain;
+	}
+
+	.splash-top {
+		padding-top: 10vh;
 	}
 
 	.splash-content {
 		color: white;
-		padding-top: 20vh;
 		font-size: 1em;
 		width: 40%;
 		float: left;
@@ -318,19 +326,13 @@ button.sponsor:hover {
 
 @media only screen and (min-width: 1000px) {
 	.splash-logo {
-		margin-top: 10vh;
-		width: 40%;
-		height: 400px;
-		float: left;
 		background-image: url("assets/hacksclogovertical.png");
 		background-repeat: no-repeat;
-		background-position: right;
 		background-size: contain;
 	}
 
 	.splash-content {
 		color: white;
-		padding-top: 20vh;
 		font-size: 1em;
 		width: 35%;
 		float: left;
@@ -546,6 +548,25 @@ button.btn--inside {
 	background: #7f8ff4;
 	box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
 }
+
+.btn--secondary {
+	background: #f36f78;
+	color: #fff;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	width: 90%;
+	padding: 12px 36px;
+}
+
+.btn--secondary:hover {
+	background: #f1606a;
+}
+
+.btn--secondary:active {
+	background: #f36f78;
+	box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
 
 .btn--inside {
 	margin-left: -96px;
