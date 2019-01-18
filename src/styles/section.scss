@@ -4,6 +4,12 @@
     font-size: 4em;
     font-weight: 900;
     position: relative;
+    margin-bottom: 3rem;
+
+    &.details { color: #53A2FC; }
+    &.faq { color: #6871F3; }
+    &.sponsors { color: #774DED; }
+    &.contact { color: #7F3AE9; }
 
     &::after {
       position: absolute;
@@ -33,7 +39,28 @@
 
   p {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 2rem;
+  }
+
+  .coming-soon {
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 4rem;
+    font-style: italic;
+    color: #CCCCCC;
+  }
+
+  &.faq {
+    h3 {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      font-weight: 600;
+      color: #53A2FC;
+    }
+
+    .question {
+      margin-bottom: 2rem;
+    }
   }
 }
