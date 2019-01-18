@@ -2,7 +2,12 @@ import React, { Component } from "react"
 
 import './styles/section.scss'
 import './styles/hero.scss'
+import './styles/footer.scss'
+
 import logo from './assets/hacksclogovertical.png';
+import facebook from './assets/facebook.png';
+import instagram from './assets/instagram.png';
+import email from './assets/envelope.png';
 
 class App extends Component {
 	render() {
@@ -133,7 +138,7 @@ class App extends Component {
           <section className="section">
             <div className="container">
               <h2 className="title sponsors">Sponsors.</h2>
-              <p class="coming-soon">TBA.<br/>Coming Soon.</p>
+              <p className="coming-soon">TBA.<br/>Coming Soon.</p>
             </div>
           </section>
 
@@ -142,6 +147,12 @@ class App extends Component {
               <h2 className="title contact">Contact.</h2>
               <p className="has-text-centered">
                 Reach out to us at <a href="mailto:team@hacksc.com">team@hacksc.com</a> or on social media if you have any questions, want more information, or want to talk about sponsorship!
+              </p>
+
+              <p className="social-links">
+                <a href="https://www.facebook.com/gohacksc/" target="_blank"><img src={facebook} alt="Facebook" /></a>
+                <a href="https://instagram.com/gohacksc" target="_blank"><img src={instagram} alt="Instagram" /></a>
+                <a href="mailto:team@hacksc.com" target="_blank"><img src={email} alt="Email" /></a>
               </p>
             </div>
           </section>

@@ -63,4 +63,25 @@
       margin-bottom: 2rem;
     }
   }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    a {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      transition: 0.25s all;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      img {
+        width: 42px;
+      }
+    }
+  }
 }
