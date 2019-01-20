@@ -24,7 +24,7 @@
     }
   }
 
-  &.right {
+  &:nth-child(even) {
     .title {
       text-align: right;
 

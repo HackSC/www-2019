@@ -27,6 +27,7 @@
   ],
   "devDependencies": {
     "bulma": "^0.7.2",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "react-scroll": "^1.7.10"
   }
 }

@@ -1,3 +1,17 @@
+// Click to scroll bounce animation
+@-webkit-keyframes bounce {
+  0%   {bottom: 16px;}
+  40%  {bottom: 24px;}
+  80%  {bottom: 16px;}
+}
+
+/* Standard syntax */
+@keyframes bounce {
+  0%   {bottom: 16px;}
+  40%  {bottom: 24px;}
+  80%  {bottom: 16px;}
+}
+
 .hero.is-primary {
   background-image: linear-gradient(to right bottom, #4cb3ff, #3197fc, #3f77f2, #5f52de, #7c13c0);
   position: relative;
@@ -35,5 +49,22 @@
       top: 0;
       left: 0;
       background-size: 100%;
+  }
+
+  .click-down {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    bottom: 16px;
+    left: 50vw;
+    margin-left: -32px;
+    z-index: 20;
+    animation-name: bounce;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
