@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/mixins";
+
 .section {
   .title {
     text-transform: uppercase;
@@ -5,6 +7,18 @@
     font-weight: 900;
     position: relative;
     margin-bottom: 3rem;
+
+    @include until($desktop) {
+      font-size: 3rem;
+    }
+
+    @include until($tablet) {
+      font-size: 2rem;
+    }
+
+    @include mobile {
+      font-size: 1.5rem;
+    }
 
     &.details { color: #53A2FC; }
     &.faq { color: #6871F3; }

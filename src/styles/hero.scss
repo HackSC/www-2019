@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/mixins";
+
 // Click to scroll bounce animation
 @-webkit-keyframes bounce {
   0%   {bottom: 16px;}
@@ -22,6 +24,18 @@
     .title {
       font-size: 2.75rem;
       font-weight: 700;
+
+      @include until($desktop) {
+        font-size: 2.3rem;
+      }
+
+      @include until($tablet) {
+        font-size: 2rem;
+      }
+
+      @include mobile {
+        font-size: 1.5rem;
+      }
     }
 
     .subtitle {
