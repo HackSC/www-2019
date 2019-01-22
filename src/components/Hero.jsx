@@ -16,7 +16,7 @@ export default (props) => (
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column">
-              <img src={logo} />
+              <img src={logo} className="logo" alt="HackSC Logo" />
             </div>
 
             <div className="column has-text-right">

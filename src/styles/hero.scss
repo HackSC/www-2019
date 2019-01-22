@@ -7,11 +7,21 @@
   80%  {bottom: 16px;}
 }
 
-/* Standard syntax */
 @keyframes bounce {
   0%   {bottom: 16px;}
   40%  {bottom: 24px;}
   80%  {bottom: 16px;}
+}
+
+// Fade in LA skyline animation
+@-webkit-keyframes fadeIn {
+  0%   {opacity: 0;}
+  100%  {bottom: 1;}
+}
+
+@keyframes fadeIn {
+  0%   {opacity: 0;}
+  100%  {bottom: 1;}
 }
 
 .hero.is-primary {
@@ -41,6 +51,9 @@
     .subtitle {
       font-size: 1.5rem;
     }
+
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
   }
 
   .subscribe-form {
@@ -63,6 +76,8 @@
       top: 0;
       left: 0;
       background-size: 100%;
+      animation-name: fadeIn;
+      animation-duration: 3s;
   }
 
   .click-down {
