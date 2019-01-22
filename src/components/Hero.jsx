@@ -9,30 +9,23 @@ import { Link } from 'react-scroll';
 
 import '../styles/hero.scss'
 
+import SignUp from './SignUp'
+
 export default (props) => (
   <header>
     <div className="hero is-primary is-fullheight">
       <div className="hero-body">
         <div className="container">
           <div className="columns is-vcentered">
-            <div className="column">
+            <div className="column is-half">
               <img src={logo} className="logo" alt="HackSC Logo" />
             </div>
 
-            <div className="column has-text-right">
+            <div className="column is-half has-text-right">
               <h1 className="title">April 12-14, 2019. <br/> Los Angeles, CA.</h1>
               <p className="subtitle">Hack, build, and innovate. <br/> Coming soon to Southern California.</p>
 
-                <div className="field has-addons subscribe-form">
-                  <div className="control email-control">
-                    <input className="input is-medium" type="email" placeholder="your@email.com"/>
-                  </div>
-                  <div className="control">
-                    <a className="button is-medium is-primary">
-                      Subscribe
-                    </a>
-                  </div>
-                </div>
+              <SignUp />
             </div>
           </div>
         </div>
