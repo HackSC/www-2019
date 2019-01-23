@@ -57,6 +57,14 @@
 
     .subtitle {
       font-size: 1.5rem;
+
+      @include until($tablet) {
+        font-size: 1.25rem;
+      }
+
+      @include mobile {
+        font-size: 1rem;
+      }
     }
 
     animation-name: fadeIn;
@@ -107,6 +115,13 @@
 
     &:hover {
       cursor: pointer;
+    }
+
+    @include until($tablet) {
+      bottom: 8px;
+      width: 32px;
+      height: 32px;
+      margin-left: -16px;
     }
   }
 }
