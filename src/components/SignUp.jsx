@@ -43,14 +43,14 @@ const CustomForm = ({status, message, onValidated}) => {
         </div>
       </div>
 
-      {status === "sending" && <p>Sending...</p>}
+      {status === "sending" && <p className="form-message">Sending...</p>}
       {status === "error" && (
-        <p
+        <p className="form-message"
           dangerouslySetInnerHTML={{ __html: message }}
         />
       )}
       {status === "success" && (
-        <p
+        <p className="form-message"
           dangerouslySetInnerHTML={{ __html: message }}
         />
       )}

@@ -71,6 +71,12 @@
     }
   }
 
+  .form-message {
+    a {
+      text-decoration: underline;
+    }
+  }
+
   &::after {
       display: block;
       content: '';
