@@ -22,8 +22,8 @@ export default (props) => (
             </div>
 
             <div className="column is-half has-text-right">
-              <h1 className="title">April 12-14, 2019. <br/> Los Angeles, CA.</h1>
-              <p className="subtitle">Hack, build, and innovate. <br/> Coming soon to Southern California.</p>
+              <h1 className="title">HackSC. <br/>April 12-14, 2019. <br/>Los Angeles, CA.</h1>
+              <p className="subtitle">Hack, build, and innovate. <br/> Hackathon coming soon to USC.</p>
 
               <SignUp />
             </div>
