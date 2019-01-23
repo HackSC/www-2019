@@ -31,6 +31,13 @@
   .hero-body {
     z-index: 10;
 
+    .logo {
+      @include until($tablet) {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+
     .title {
       font-size: 2.75rem;
       font-weight: 700;
