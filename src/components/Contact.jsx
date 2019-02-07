@@ -10,6 +10,10 @@ export default () => (
   <div>
     <p className="has-text-centered">
       Reach out to us at <a href="mailto:team@hacksc.com">team@hacksc.com</a> or on social media if you have any questions, want more information, or want to talk about sponsorship!
+
+      <br/>
+
+      <button class="button is-medium meet-team-button">Meet Our Team</button>
     </p>
 
     <p className="social-links">
