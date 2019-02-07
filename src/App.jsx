@@ -23,11 +23,18 @@ class App extends Component {
 
                 <div className="columns">
                   <div className="column is-three-fifths">
-                    <p><em>Welcome to Los Angeles, the warm and beautiful city of angels and dreamers. On the University of Southern California campus this spring, you are invited to a 36 hour technology hackathon that seeks to change the future of our beloved city. Alongside 700+ hackers and designers, you will re-imagine what a 21st century city should look like and apply your ideas to the test.</em></p>
+                    <p>
+                      HackSC is a better hackathon than the one you’re thinking of right now, let’s tell you why.
+                      Located in the heart of sunny, seductive Los Angeles, HackSC will provide a weekend full of innovation, connection, and education.
+                      In an interdisciplinary endeavor, join together with 1000+ hackers, designers, and visionaries to engage in workshops, listen to speakers,
+                      and develop programs, tools, and relationships that can last for life. Coming from USC, HackSC seeks to breathe some of Southern California’s
+                      life and culture into the field and world of tech.
 
-                    <br/>
+                      We hope to have you join us!
 
-                  <p>We hope you will join us!</p>
+                      For more information and updates, feel free to sign up for our newsletter,
+                      or read our Medium blog at <a href="https://medium.com/@hacksc_">{'https://medium.com/@hacksc'}</a>
+                    </p>
                   </div>
 
                   <div className="column">
@@ -55,7 +62,7 @@ class App extends Component {
 
                     <p>
                       <b>Cost</b><br/>
-                      <em>Totally free.</em>
+                      <em>Not a thing</em>
                     </p>
                   </div>
                 </div>
