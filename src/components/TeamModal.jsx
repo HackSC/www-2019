@@ -9,7 +9,19 @@ export default (props) => {
 
       <div className="modal-content">
         <div className="box">
-          <h1>Willie Sucks.</h1>
+          <h1>Our Team</h1>
+
+          <h2>E-Board</h2>
+
+          <h2>Logistics</h2>
+
+          <h2>Hacker Experience</h2>
+
+          <h2>Sponsorship</h2>
+
+          <h2>Marketing</h2>
+
+          <h2>Special Projects</h2>
         </div>
       </div>
 
