@@ -5,22 +5,12 @@ export default (props) => {
 
   return (
     <div className={modalClass}>
-      <div className="modal-background"></div>
+      <div className="modal-background" onClick={props.hideModal}></div>
 
-      <div className="modal-card">
-        <header className="modal-card-head">
-          <p className="modal-card-title">Modal title</p>
-          <button className="delete" aria-label="close"></button>
-        </header>
-
-        <section className="modal-card-body">
-          <h1>Wilhelm Willie sucks. This team sucks.</h1>
-        </section>
-
-        <footer className="modal-card-foot">
-          <button className="button is-success">Save changes</button>
-          <button className="button">Cancel</button>
-        </footer>
+      <div className="modal-content">
+        <div className="box">
+          <h1>Willie Sucks.</h1>
+        </div>
       </div>
     </div>
   )

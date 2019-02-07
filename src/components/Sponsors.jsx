@@ -56,7 +56,7 @@ export default (props) => (
         <img src={gcp} alt="Google Cloud Platform" className="sponsor bottom"/>
       </a>
 
-      <a href="//viterbi.usc.edu" target="_blank" rel="noopener noreferrer">
+      <a href="//viterbischool.usc.edu" target="_blank" rel="noopener noreferrer">
         <img src={viterbi} alt="USC Viterbi School of Engineering" className="sponsor bottom"/>
       </a>
     </div>

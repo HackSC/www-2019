@@ -8,24 +8,50 @@ import email from '../assets/social/email.svg';
 
 import Modal from './TeamModal';
 
-export default () => (
-  <div>
-    <p className="has-text-centered">
-      Reach out to us at <a href="mailto:team@hacksc.com">team@hacksc.com</a> or on social media if you have any questions, want more information, or want to talk about sponsorship!
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
 
-      <br/>
+    this.state = {
+      showModal: false
+    }
+  }
 
-      <button class="button is-medium meet-team-button">Meet Our Team</button>
-    </p>
+  showModal = () => {
+    this.setState({
+      showModal: true
+    })
+  }
 
-    <p className="social-links">
-      <a href="https://www.facebook.com/hackscofficial/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" /></a>
-      <a href="https://instagram.com/hackscofficial" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" /></a>
-      <a href="https://twitter.com/hackscofficial" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="Twitter" /></a>
-      <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer"><img src={medium} alt="Medium" /></a>
-      <a href="mailto:team@hacksc.com"><img src={email} alt="Email" /></a>
-    </p>
+  hideModal = () => {
+    this.setState({
+      showModal: false
+    })
+  }
 
-    <Modal />
-  </div>
-)
+  render() {
+    return (
+      <div>
+        <p className="has-text-centered">
+          Reach out to us at <a href="mailto:team@hacksc.com">team@hacksc.com</a> or on social media if you have any questions, want more information, or want to talk about sponsorship!
+
+          <br/>
+
+          <button className="button is-medium meet-team-button" onClick={this.showModal}>Meet Our Team</button>
+        </p>
+
+        <p className="social-links">
+          <a href="https://www.facebook.com/hackscofficial/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" /></a>
+          <a href="https://instagram.com/hackscofficial" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" /></a>
+          <a href="https://twitter.com/hackscofficial" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="Twitter" /></a>
+          <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer"><img src={medium} alt="Medium" /></a>
+          <a href="mailto:team@hacksc.com"><img src={email} alt="Email" /></a>
+        </p>
+
+        <Modal isActive={this.state.showModal} hideModal={this.hideModal}/>
+      </div>
+    )
+  }
+}
+
+export default Contact
