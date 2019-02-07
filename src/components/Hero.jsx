@@ -9,8 +9,6 @@ import { Link } from 'react-scroll';
 
 import '../styles/hero.scss'
 
-import SignUp from './SignUp'
-
 export default (props) => (
   <header>
     <div className="hero is-primary is-fullheight">
@@ -25,7 +23,7 @@ export default (props) => (
               <h1 className="title">HackSC. <br/>April 12-14, 2019. <br/>Los Angeles, CA.</h1>
               <p className="subtitle">Hack, build, and innovate. <br/> Hackathon coming soon to USC.</p>
 
-              <SignUp />
+              <button>Apps Open: Feb 10, 2019</button>
             </div>
           </div>
         </div>

@@ -71,20 +71,6 @@
     animation-duration: 1.5s;
   }
 
-  .subscribe-form {
-    justify-content: flex-end;
-
-    .email-control {
-      flex-grow: 0.5;
-    }
-  }
-
-  .form-message {
-    a {
-      text-decoration: underline;
-    }
-  }
-
   &::after {
       display: block;
       content: '';
