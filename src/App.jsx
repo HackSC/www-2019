@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Section from './components/Section';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
+import Sponsors from './components/Sponsors';
 
 // Click to Scroll
 import * as Scroll from 'react-scroll'
@@ -74,7 +75,7 @@ class App extends Component {
             </Section>
 
             <Section title="Sponsors" sectionClass="sponsors">
-              <p className="coming-soon">TBA.<br/>Coming Soon.</p>
+              <Sponsors />
             </Section>
 
             <Section title="Contact" sectionClass="contact">

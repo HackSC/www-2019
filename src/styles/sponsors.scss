@@ -1,0 +1,59 @@
+@import "~bulma/sass/utilities/mixins";
+
+.sponsors-gallery {
+  margin-top: 5rem;
+}
+
+.mid-tier {
+  width: 65%;
+  margin: 2rem auto;
+
+  @include mobile {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.bottom-tier {
+  width: 35%;
+  margin: 2rem auto;
+
+  @include mobile {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.sponsor {
+  margin: 0 auto;
+
+  &.top {
+    width: 50%;
+    display: block;
+    margin: 0 auto 2rem;
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+  &.mid {
+    width: 50%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    @include mobile {
+      width: 45%;
+    }
+  }
+
+  &.bottom {
+    width: 50%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    @include mobile {
+      width: 30%;
+    }
+  }
+}
