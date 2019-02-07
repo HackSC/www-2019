@@ -6,6 +6,8 @@ import medium from '../assets/social/medium.svg';
 import instagram from '../assets/social/instagram.svg';
 import email from '../assets/social/email.svg';
 
+import Modal from './TeamModal';
+
 export default () => (
   <div>
     <p className="has-text-centered">
@@ -23,5 +25,7 @@ export default () => (
       <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer"><img src={medium} alt="Medium" /></a>
       <a href="mailto:team@hacksc.com"><img src={email} alt="Email" /></a>
     </p>
+
+    <Modal />
   </div>
 )

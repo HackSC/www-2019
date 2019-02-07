@@ -9,6 +9,7 @@ import omnisci from '../assets/sponsors/omnisci.svg';
 import smartcar from '../assets/sponsors/smartcar.png';
 import thetradedesk from '../assets/sponsors/thetradedesk.svg';
 import gcp from '../assets/sponsors/gcp.png';
+import viterbi from '../assets/sponsors/viterbi.svg';
 
 import '../styles/sponsors.scss';
 
@@ -53,6 +54,10 @@ export default (props) => (
 
       <a href="//cloud.google.com" target="_blank" rel="noopener noreferrer">
         <img src={gcp} alt="Google Cloud Platform" className="sponsor bottom"/>
+      </a>
+
+      <a href="//viterbi.usc.edu" target="_blank" rel="noopener noreferrer">
+        <img src={viterbi} alt="USC Viterbi School of Engineering" className="sponsor bottom"/>
       </a>
     </div>
   </div>

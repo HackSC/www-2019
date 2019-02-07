@@ -15,7 +15,7 @@
 }
 
 .bottom-tier {
-  width: 35%;
+  width: 50%;
   margin: 2rem auto;
 
   @include mobile {
@@ -48,7 +48,7 @@
   }
 
   &.bottom {
-    width: 50%;
+    width: 33%;
     padding: 0.5rem;
     box-sizing: border-box;
 
