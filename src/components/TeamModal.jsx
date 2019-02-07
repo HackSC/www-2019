@@ -12,6 +12,8 @@ export default (props) => {
           <h1>Willie Sucks.</h1>
         </div>
       </div>
+
+     <button className="modal-close is-large" aria-label="close" onClick={props.hideModal}></button>
     </div>
   )
 }
