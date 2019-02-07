@@ -19,7 +19,7 @@ class App extends Component {
           <main>
             <section className="section">
               <div className="container">
-                <h2 className="title details">Details.</h2>
+                <h2 className="title details">Details</h2>
 
                 <div className="columns">
                   <div className="column is-three-fifths">
@@ -69,15 +69,15 @@ class App extends Component {
               </div>
             </section>
 
-            <Section title="FAQ." sectionClass="faq">
+            <Section title="FAQ" sectionClass="faq">
               <FAQ />
             </Section>
 
-            <Section title="Sponsors." sectionClass="sponsors">
+            <Section title="Sponsors" sectionClass="sponsors">
               <p className="coming-soon">TBA.<br/>Coming Soon.</p>
             </Section>
 
-            <Section title="Contact." sectionClass="contact">
+            <Section title="Contact" sectionClass="contact">
               <Contact />
             </Section>
           </main>
