@@ -33,7 +33,7 @@ class App extends Component {
                       We hope to have you join us!
 
                       For more information and updates, feel free to sign up for our newsletter,
-                      or read our Medium blog at <a href="https://medium.com/@hacksc_">{'https://medium.com/@hacksc'}</a>
+                      or read our Medium blog at <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer">{'https://medium.com/@hacksc'}</a>
                     </p>
                   </div>
 

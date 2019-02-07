@@ -2,7 +2,6 @@ import '../styles/footer.scss'
 
 import React from "react"
 
-import logo from '../assets/hacksclogovertical.png';
 import wireFlower from '../assets/wire-flower_white.svg';
 import clickDown from '../assets/angle-down.svg';
 
