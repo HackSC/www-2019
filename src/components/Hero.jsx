@@ -3,6 +3,7 @@ import '../styles/footer.scss'
 import React from "react"
 
 import logo from '../assets/hacksclogovertical.png';
+import wireFlower from '../assets/wire-flower_white.svg';
 import clickDown from '../assets/angle-down.svg';
 
 import { Link } from 'react-scroll';
@@ -16,16 +17,16 @@ export default (props) => (
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-half has-text-centered">
-              <img src={logo} className="logo" alt="HackSC Logo" />
+              <img src={wireFlower} className="logo" alt="HackSC Logo" />
             </div>
 
             <div className="column is-half has-text-right">
               <h1 className="title">HackSC</h1>
               <h2 className="title">April 12-14, 2019</h2>
               <h2 className="title">Los Angeles, CA</h2>
-              <p className="subtitle">Innovation and tech of Silicon Valley<br/>with the sun and suave of LA</p>
+              <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
 
-              <button className="button is-primary is-medium">Applications Opening Feb 10</button>
+              <button className="button is-primary is-medium apply-button">Applications Opening Feb 10</button>
             </div>
           </div>
         </div>

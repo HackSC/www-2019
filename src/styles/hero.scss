@@ -33,9 +33,15 @@
     z-index: 10;
 
     .logo {
+      width: 90%;
+      margin: 0 auto;
+
       @include until($tablet) {
-        width: 80%;
-        margin: 0 auto;
+        width: 40%;
+      }
+
+      @include mobile {
+        width: 60%;
       }
     }
 
@@ -46,19 +52,35 @@
       margin: 0;
 
       @include until($desktop) {
-        font-size: 2.3rem;
+        font-size: 3.5rem;
       }
 
       @include until($tablet) {
-        font-size: 2rem;
+        font-size: 3rem;
+        text-align: center;
       }
 
       @include mobile {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
       }
     }
 
-    h2.title { font-size: 1.75rem; }
+    h2.title {
+      font-size: 1.75rem;
+
+      @include until($desktop) {
+        font-size: 1.7rem;
+      }
+
+      @include until($tablet) {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      @include mobile {
+        font-size: 1.3rem;
+      }
+    }
 
     .subtitle {
       margin-top: 0.5rem;
@@ -66,6 +88,7 @@
 
       @include until($tablet) {
         font-size: 1.25rem;
+        text-align: center;
       }
 
       @include mobile {
