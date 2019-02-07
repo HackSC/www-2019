@@ -23,9 +23,9 @@ export default (props) => (
               <h1 className="title">HackSC</h1>
               <h2 className="title">April 12-14, 2019</h2>
               <h2 className="title">Los Angeles, CA</h2>
-              <p className="subtitle">Innovation and tech of Silicon Valley with the sun and suave of LA</p>
+              <p className="subtitle">Innovation and tech of Silicon Valley<br/>with the sun and suave of LA</p>
 
-              <button>Apps Open: Feb 10, 2019</button>
+              <button className="button is-primary is-medium">Applications Opening Feb 10</button>
             </div>
           </div>
         </div>

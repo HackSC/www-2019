@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/mixins";
+@import './variables';
 
 .section {
   .title {
@@ -7,6 +8,7 @@
     font-weight: 900;
     position: relative;
     margin-bottom: 3rem;
+    color: $primary;
 
     @include until($desktop) {
       font-size: 3rem;
@@ -19,35 +21,11 @@
     @include mobile {
       font-size: 1.5rem;
     }
-
-    &.details { color: #53A2FC; }
-    &.faq { color: #6871F3; }
-    &.sponsors { color: #774DED; }
-    &.contact { color: #7F3AE9; }
-
-    &::after {
-      position: absolute;
-      background: url("../assets/gray_flower_a.png");
-      width: 360px;
-      height: 306px;
-      display: block;
-      content: '';
-      left: -180px;
-      top: -150px;
-      z-index: -10;
-    }
   }
 
   &:nth-child(even) {
     .title {
       text-align: right;
-
-      &::after {
-        background: url("../assets/gray_flower_b.png");
-        left: auto;
-        right: -150px;
-        top: -150px;
-      }
     }
   }
 
@@ -70,7 +48,7 @@
       font-size: 1.25rem;
       line-height: 2rem;
       font-weight: 600;
-      color: #53A2FC;
+      color: $secondary;
     }
 
     .question {
