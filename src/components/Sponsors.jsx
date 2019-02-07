@@ -2,7 +2,7 @@ import React from "react"
 
 import amplify from '../assets/sponsors/amplify.svg';
 import facebook from '../assets/sponsors/facebook.svg';
-import headspace from '../assets/sponsors/headspace.svg';
+import headspace from '../assets/sponsors/headspace.png';
 import crowdstrike from '../assets/sponsors/crowdstrike.png';
 import legalzoom from '../assets/sponsors/legalzoom.svg';
 import omnisci from '../assets/sponsors/omnisci.svg';

@@ -7,7 +7,7 @@ export default (props) => (
     <div className="column">
       <Question
         question="Why HackSC?"
-        answer="HackSC is a very different hackathon in that we aim to break the mold -- for us, this means pushing the boundaries of creation past just app development and tech. We're taking a very interdisciplinary approach, admitting people with skills not just in Computer Science, but also in design, product, and more."
+        answer="HackSC is a very different hackathon in that we aim to break the mold – for us, this means pushing the boundaries of creation past just app development and tech. We're taking a very interdisciplinary approach, admitting people with skills not just in Computer Science, but also in design, product, and more."
       />
 
       <Question
@@ -22,7 +22,7 @@ export default (props) => (
 
       <Question
         question="What if my question isn't here?"
-        answer="You can message and/or email us your questions! Feel free to reach out to us at team@hacksc.com or on social media!"
+        answer={(<span>You can message and/or email us your questions! Feel free to reach out to us at <a href='mailto:team@hacksc.com'>team@hacksc.com</a> or on social media!</span>)}
       />
     </div>
 

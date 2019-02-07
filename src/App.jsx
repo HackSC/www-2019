@@ -26,15 +26,14 @@ class App extends Component {
                   <div className="column is-three-fifths">
                     <p>
                       HackSC is a better hackathon than the one you’re thinking of right now, let’s tell you why.
-                      Located in the heart of sunny, seductive Los Angeles, HackSC will provide a weekend full of innovation, connection, and education.
-                      In an interdisciplinary endeavor, join together with 1000+ hackers, designers, and visionaries to engage in workshops, listen to speakers,
+                      Located in the heart of sunny Los Angeles, HackSC will provide a weekend full of innovation, connection, and education.
+                      In an interdisciplinary endeavor, join together with 900+ hackers, designers, and visionaries to engage in workshops, listen to speakers,
                       and develop programs, tools, and relationships that can last for life. Coming from USC, HackSC seeks to breathe some of Southern California’s
                       life and culture into the field and world of tech.
 
                       We hope to have you join us!
 
-                      For more information and updates, feel free to sign up for our newsletter,
-                      or read our Medium blog at <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer">{'https://medium.com/@hacksc'}</a>
+                      For more information and updates, check out our social media and read our <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer">Medium blog</a>
                     </p>
                   </div>
 
@@ -49,14 +48,14 @@ class App extends Component {
 
                     <p>
                       <b>Start</b><br/>
-                      <em>Friday, April 12th, 10PM</em>
+                      <em>Friday, April 12th, 9PM</em>
                     </p>
 
                     <br/>
 
                     <p>
                       <b>End</b><br/>
-                      <em>Sunday, April 14th, 10AM</em>
+                      <em>Sunday, April 14th, 9AM</em>
                     </p>
 
                     <br/>
