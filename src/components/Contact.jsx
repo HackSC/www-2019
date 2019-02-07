@@ -11,8 +11,8 @@ export default () => (
     </p>
 
     <p className="social-links">
-      <a href="https://www.facebook.com/gohacksc/" target="_blank"><img src={facebook} alt="Facebook" /></a>
-      <a href="https://instagram.com/gohacksc" target="_blank"><img src={instagram} alt="Instagram" /></a>
+      <a href="https://www.facebook.com/hackscofficial/" target="_blank"><img src={facebook} alt="Facebook" /></a>
+      <a href="https://instagram.com/hackscofficial" target="_blank"><img src={instagram} alt="Instagram" /></a>
       <a href="mailto:team@hacksc.com" target="_blank"><img src={email} alt="Email" /></a>
     </p>
   </div>
