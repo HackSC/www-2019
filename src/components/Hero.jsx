@@ -20,7 +20,7 @@ export default (props) => (
               <img src={wireFlower} className="logo" alt="HackSC Logo" />
             </div>
 
-            <div className="column is-half has-text-right">
+            <div className="column is-half details-column">
               <h1 className="title">HackSC</h1>
               <h2 className="title">April 12-14, 2019</h2>
               <h2 className="title">Los Angeles, CA</h2>

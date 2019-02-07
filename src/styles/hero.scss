@@ -37,11 +37,12 @@
       margin: 0 auto;
 
       @include until($tablet) {
-        width: 40%;
+        width: 30%;
       }
 
       @include mobile {
-        width: 60%;
+        width: 50%;
+        max-width: 300px;
       }
     }
 
@@ -96,6 +97,19 @@
       }
     }
 
+    .apply-button {
+      @include until($tablet) {
+        font-size: 1.1rem;
+      }
+    }
+
+    .details-column {
+      text-align: right;
+
+      @include until($tablet) {
+        text-align: center;
+      }
+    }
     animation-name: fadeIn;
     animation-duration: 1.5s;
   }
@@ -122,5 +136,19 @@
       height: 32px;
       margin-left: -16px;
     }
+  }
+
+  &:after {
+    display: block;
+    content: '';
+    background-image: url('../assets/dust.png');
+    background-attachment: fixed;
+    opacity: 0.3;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
