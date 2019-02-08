@@ -26,7 +26,8 @@
 }
 
 .hero.is-primary {
-  background: #1a1a1a;
+  background: #FFFFFF;
+  color: #1A1A1A;
   position: relative;
 
   .hero-body {
@@ -46,9 +47,38 @@
       }
     }
 
+    .hacksc {
+      width: 80%;
+      max-width: 360px;
+    }
+
+    .graphic-col {
+      text-align: center;
+
+      .city-graphic {
+        height: 75vh;
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    hr {
+      color: $secondary;
+      width: 60px;
+      height: 3px;
+      background-color: $secondary;
+
+      @include mobile {
+        margin: 2rem auto;
+      }
+    }
+
     .title {
       font-size: 4rem;
       font-weight: 700;
+      color: $dark;
       font-family: $heading-font-family;
       margin: 0;
 
@@ -68,6 +98,7 @@
 
     h2.title {
       font-size: 1.75rem;
+      color: $dark;
 
       @include until($desktop) {
         font-size: 1.7rem;
@@ -81,11 +112,17 @@
       @include mobile {
         font-size: 1.3rem;
       }
+
+      &.city {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
     }
 
     .subtitle {
       margin-top: 0.5rem;
       font-size: 1.5rem;
+      color: $dark;
 
       @include until($tablet) {
         font-size: 1.25rem;
@@ -104,7 +141,7 @@
     }
 
     .details-column {
-      text-align: right;
+      text-align: left;
 
       @include until($tablet) {
         text-align: center;
@@ -116,11 +153,11 @@
 
   .click-down {
     position: absolute;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     bottom: 16px;
     left: 50vw;
-    margin-left: -32px;
+    margin-left: -24px;
     z-index: 20;
     animation-name: bounce;
     animation-duration: 2.5s;
@@ -136,19 +173,5 @@
       height: 32px;
       margin-left: -16px;
     }
-  }
-
-  &:after {
-    display: block;
-    content: '';
-    background-image: url('../assets/dust.png');
-    background-attachment: fixed;
-    opacity: 0.3;
-    background-repeat: repeat;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
   }
 }
