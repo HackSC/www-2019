@@ -3,6 +3,7 @@ import React, { Component } from "react"
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Section from './components/Section';
+import Verticals from './components/Verticals';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Sponsors from './components/Sponsors';
@@ -68,6 +69,10 @@ class App extends Component {
                 </div>
               </div>
             </section>
+
+            <Section title="Verticals" sectionClass="verticals">
+              <Verticals />
+            </Section>
 
             <Section title="FAQ" sectionClass="faq">
               <FAQ />
