@@ -45,7 +45,7 @@ export default (props) => {
             <TeamMember
               pic="/team/sam.jpg"
               name="Sam Kushell"
-              title="Lead Director of Community"
+              title="Lead Director of Hacker Experience"
               link="https://www.linkedin.com/in/samkushell/"
               colClass="is-one-third"
             />
