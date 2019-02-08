@@ -30,7 +30,7 @@ export default (props) => {
               pic="/team/jack.jpg"
               name="Jack Zeiders"
               title="Executive Director"
-              link="facebook.com"
+              link="https://www.linkedin.com/in/john-zeiders/"
               colClass="is-one-fifth"
             />
 
@@ -106,7 +106,7 @@ export default (props) => {
               pic="/team/daniel.jpg"
               name="Daniel Ho"
               title="Director of Technology"
-              link="donutdaniel.github.io"
+              link="http://donutdaniel.github.io"
               colClass="is-one-third"
             />
           </div>
@@ -219,7 +219,7 @@ export default (props) => {
               pic="/team/fedja.jpeg"
               name="Fedja Čelebić"
               title="Director of Marketing"
-              link="http://fedjacelebic.com"
+              link="https://www.linkedin.com/in/fedja-celebic-413820149/"
               colClass="is-one-third"
             />
           </div>
