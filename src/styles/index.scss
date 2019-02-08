@@ -7,3 +7,8 @@
 
 // Import Bulma, a CSS framework
 @import "~bulma/bulma";
+
+// Misc. styles
+.no-scroll {
+  overflow: hidden;
+}

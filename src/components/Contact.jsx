@@ -21,12 +21,18 @@ class Contact extends React.Component {
     this.setState({
       showModal: true
     })
+
+    // Prevent window from scrolling while modal is active
+    document.querySelector('html').classList.add('no-scroll');
   }
 
   hideModal = () => {
     this.setState({
       showModal: false
     })
+
+    // Allow window to scroll now that modal isn't active
+    document.querySelector('html').classList.remove('no-scroll');
   }
 
   render() {
