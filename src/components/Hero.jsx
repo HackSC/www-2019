@@ -2,14 +2,13 @@ import '../styles/footer.scss'
 
 import React from "react"
 
-import logo from '../assets/hacksclogovertical.png';
+import hacksc from '../assets/hacksc.svg';
 import clickDown from '../assets/angle-down.svg';
+import city from '../assets/city.png';
 
 import { Link } from 'react-scroll';
 
 import '../styles/hero.scss'
-
-import SignUp from './SignUp'
 
 export default (props) => (
   <header>
@@ -17,15 +16,18 @@ export default (props) => (
       <div className="hero-body">
         <div className="container">
           <div className="columns is-vcentered">
-            <div className="column is-half has-text-centered">
-              <img src={logo} className="logo" alt="HackSC Logo" />
+            <div className="column is-half details-column">
+              <img src={hacksc} alt="HackSC 2019" className="hacksc"/>
+              <hr/>
+              <h2 className="title">April 12-14, 2019</h2>
+              <h2 className="title city">Los Angeles, CA</h2>
+              <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
+
+              <button className="button is-primary is-medium apply-button">Applications Open Feb 10</button>
             </div>
 
-            <div className="column is-half has-text-right">
-              <h1 className="title">HackSC. <br/>April 12-14, 2019. <br/>Los Angeles, CA.</h1>
-              <p className="subtitle">Hack, build, and innovate. <br/> Hackathon coming soon to USC.</p>
-
-              <SignUp />
+            <div className="column is-half graphic-col">
+              <img src={city} alt="City HackSC graphic" className="city-graphic" />
             </div>
           </div>
         </div>

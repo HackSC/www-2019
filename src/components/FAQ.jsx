@@ -7,7 +7,7 @@ export default (props) => (
     <div className="column">
       <Question
         question="Why HackSC?"
-        answer="HackSC is a very different hackathon in that we aim to break the mold -- for us, this means pushing the boundaries of creation past just app development and tech. We're taking a very interdisciplinary approach, admitting people with skills not just in Computer Science, but also in design, product, and more."
+        answer="We break the hackathon mold – for us, this means pushing the boundaries of creation past just app development and tech. We take an interdisciplinary approach to tech, admitting people talented not only in computer science, but also in design, product, and more."
       />
 
       <Question
@@ -22,19 +22,19 @@ export default (props) => (
 
       <Question
         question="What if my question isn't here?"
-        answer="You can message and/or email us your questions! Feel free to reach out to us at team@hacksc.com or on social media!"
+        answer={(<span>You can message and/or email us your questions! Feel free to reach out to us at <a href='mailto:team@hacksc.com'>team@hacksc.com</a> or on social media!</span>)}
       />
     </div>
 
     <div className="column">
       <Question
         question="What should I bring?"
-        answer="All hackers must bring their valid student ID for admission (the name must match your HackSC application). Definitely bring your laptop, charger, and any hackathon gear you need for your creation. We also strongly recommend bringing a sleeping bag and toiletries for when you need to rest and washup."
+        answer="All hackers must bring a valid student ID for admission (the name on the ID must match that on your HackSC application). Definitely bring your laptop, charger, and any hackathon gear you may need for your creation. We also strongly recommend bringing a sleeping bag and toiletries for when you need to rest and wash up. One more way HackSC differs from other hackathons is that we are great at hygiene."
       />
 
       <Question
         question="Does it cost anything?"
-        answer="Nope! Admission is free for all hackers. This includes food and drinks! The only thing you have to figure out is transportation."
+        answer="Nope! Admission is free for all hackers, which includes food and drinks. The only cost you might have to consider is transportation."
       />
 
       <Question

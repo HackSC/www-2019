@@ -3,8 +3,10 @@ import React, { Component } from "react"
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Section from './components/Section';
+import Verticals from './components/Verticals';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
+import Sponsors from './components/Sponsors';
 
 // Click to Scroll
 import * as Scroll from 'react-scroll'
@@ -19,15 +21,21 @@ class App extends Component {
           <main>
             <section className="section">
               <div className="container">
-                <h2 className="title details">Details.</h2>
+                <h2 className="title details">Details</h2>
 
                 <div className="columns">
                   <div className="column is-three-fifths">
-                    <p><em>Welcome to Los Angeles, the warm and beautiful city of angels and dreamers. On the University of Southern California campus this spring, you are invited to a 36 hour technology hackathon that seeks to change the future of our beloved city. Alongside 700+ hackers and designers, you will re-imagine what a 21st century city should look like and apply your ideas to the test.</em></p>
+                    <p>
+                      HackSC is a better hackathon than the one you’re thinking of right now, let’s tell you why.
+                      Located in the heart of sunny Los Angeles, HackSC will provide a weekend full of innovation, connection, and education.
+                      In an interdisciplinary endeavor, join together with 900+ hackers, designers, and visionaries to engage in workshops, listen to speakers,
+                      and develop programs, tools, and relationships that can last for life. Coming from USC, HackSC seeks to breathe some of Southern California’s
+                      life and culture into the field and world of tech.
 
-                    <br/>
+                      We hope to have you join us!
 
-                  <p>We hope you will join us!</p>
+                      For more information and updates, check out our social media and read our <a href="https://medium.com/@hacksc" target="_blank" rel="noopener noreferrer">Medium blog</a>
+                    </p>
                   </div>
 
                   <div className="column">
@@ -41,36 +49,40 @@ class App extends Component {
 
                     <p>
                       <b>Start</b><br/>
-                      <em>Friday, April 12th, 10PM</em>
+                      <em>Friday, April 12th, 9PM</em>
                     </p>
 
                     <br/>
 
                     <p>
                       <b>End</b><br/>
-                      <em>Sunday, April 14th, 10AM</em>
+                      <em>Sunday, April 14th, 9AM</em>
                     </p>
 
                     <br/>
 
                     <p>
                       <b>Cost</b><br/>
-                      <em>Totally free.</em>
+                      <em>Not a thing</em>
                     </p>
                   </div>
                 </div>
               </div>
             </section>
 
-            <Section title="FAQ." sectionClass="faq">
+            <Section title="Verticals" sectionClass="verticals">
+              <Verticals />
+            </Section>
+
+            <Section title="FAQ" sectionClass="faq">
               <FAQ />
             </Section>
 
-            <Section title="Sponsors." sectionClass="sponsors">
-              <p className="coming-soon">TBA.<br/>Coming Soon.</p>
+            <Section title="Sponsors" sectionClass="sponsors">
+              <Sponsors />
             </Section>
 
-            <Section title="Contact." sectionClass="contact">
+            <Section title="Contact" sectionClass="contact">
               <Contact />
             </Section>
           </main>

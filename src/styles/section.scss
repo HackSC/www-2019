@@ -1,54 +1,40 @@
 @import "~bulma/sass/utilities/mixins";
+@import './variables';
 
 .section {
   .title {
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 900;
+    font-family: $heading-font-family;
     position: relative;
     margin-bottom: 3rem;
+    color: $primary;
 
     @include until($desktop) {
       font-size: 3rem;
     }
 
     @include until($tablet) {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
     @include mobile {
-      font-size: 1.5rem;
-    }
-
-    &.details { color: #53A2FC; }
-    &.faq { color: #6871F3; }
-    &.sponsors { color: #774DED; }
-    &.contact { color: #7F3AE9; }
-
-    &::after {
-      position: absolute;
-      background: url("../assets/gray_flower_a.png");
-      width: 360px;
-      height: 306px;
-      display: block;
-      content: '';
-      left: -180px;
-      top: -150px;
-      z-index: -10;
+      font-size: 2rem;
     }
   }
 
   &:nth-child(even) {
     .title {
       text-align: right;
-
-      &::after {
-        background: url("../assets/gray_flower_b.png");
-        left: auto;
-        right: -150px;
-        top: -150px;
-      }
     }
+  }
+
+  h3 {
+    color: $secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   p {
@@ -70,12 +56,19 @@
       font-size: 1.25rem;
       line-height: 2rem;
       font-weight: 600;
-      color: #53A2FC;
+      color: $secondary;
     }
 
     .question {
       margin-bottom: 2rem;
     }
+  }
+
+  .meet-team-button {
+    margin-top: 1rem;
+    background: $secondary;
+    border: none;
+    color: #ffffff;
   }
 
   .social-links {
