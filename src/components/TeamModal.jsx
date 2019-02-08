@@ -17,13 +17,13 @@ export default (props) => {
 
           <h2>E-Board</h2>
 
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-centered">
             <TeamMember
               pic="/team/stiven.jpg"
               name="Stiven Deleur"
               title="Executive Director"
               link="http://stiven.me"
-              colClass="is-one-fifth"
+              colClass="is-half"
             />
 
             <TeamMember
@@ -31,7 +31,7 @@ export default (props) => {
               name="Jack Zeiders"
               title="Executive Director"
               link="https://www.linkedin.com/in/john-zeiders/"
-              colClass="is-one-fifth"
+              colClass="is-half"
             />
 
             <TeamMember
@@ -39,7 +39,7 @@ export default (props) => {
               name="Caleb Thomas"
               title="Lead Director of Sponsorship"
               link="https://www.linkedin.com/in/thomascaleb/"
-              colClass="is-one-fifth"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -47,7 +47,7 @@ export default (props) => {
               name="Sam Kushell"
               title="Lead Director of Community"
               link="https://www.linkedin.com/in/samkushell/"
-              colClass="is-one-fifth"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -55,18 +55,26 @@ export default (props) => {
               name="Wilhelm Willie"
               title="Lead Director of Technology"
               link="http://wilhelmwillie.com"
-              colClass="is-one-fifth"
+              colClass="is-one-third"
             />
           </div>
 
           <h2>Logistics</h2>
 
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-centered">
             <TeamMember
               pic="/team/anjan.JPG"
               name="Anjan Amarnath"
               title="Lead Director of Logistics"
               link="https://www.linkedin.com/in/anjan-amarnath/"
+              colClass="is-one-third"
+            />
+
+            <TeamMember
+              pic="/team/lauralee.jpg"
+              name="Lauralee Harper"
+              title="Director of Logistics"
+              link="https://linkedin.com/in/lauraleeharper/"
               colClass="is-one-third"
             />
 
@@ -83,14 +91,6 @@ export default (props) => {
               name="Jane Wang"
               title="Director of Logistics"
               link="https://linkedin.com/in/janelianwang/"
-              colClass="is-one-third"
-            />
-
-            <TeamMember
-              pic="/team/lauralee.jpg"
-              name="Lauralee Harper"
-              title="Director of Logistics"
-              link="https://linkedin.com/in/lauraleeharper/"
               colClass="is-one-third"
             />
 
@@ -112,20 +112,12 @@ export default (props) => {
           </div>
 
           <h2>Hacker Experience</h2>
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-centered">
             <TeamMember
               pic="/team/sam.jpg"
               name="Sam Kushell"
               title="Lead Director of Hacker Experience"
               link="https://www.linkedin.com/in/samkushell/"
-              colClass="is-one-third"
-            />
-
-            <TeamMember
-              pic="/team/michelle.jpg"
-              name="Michelle Renee Sacks"
-              title="Director of Hacker Experience"
-              link="https://www.linkedin.com/in/michelle-sacks/"
               colClass="is-one-third"
             />
 
@@ -138,10 +130,10 @@ export default (props) => {
             />
 
             <TeamMember
-              pic="/team/katie.jpg"
-              name="Katherine Wong"
+              pic="/team/michelle.jpg"
+              name="Michelle Renee Sacks"
               title="Director of Hacker Experience"
-              link="https://www.linkedin.com/in/katherine-wong-04938216b"
+              link="https://www.linkedin.com/in/michelle-sacks/"
               colClass="is-one-third"
             />
 
@@ -152,10 +144,18 @@ export default (props) => {
               link="https://www.linkedin.com/in/ariellewsmith/detail/photo/"
               colClass="is-one-third"
             />
+
+            <TeamMember
+              pic="/team/katie.jpg"
+              name="Katherine Wong"
+              title="Director of Hacker Experience"
+              link="https://www.linkedin.com/in/katherine-wong-04938216b"
+              colClass="is-one-third"
+            />
           </div>
 
           <h2>Sponsorship</h2>
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-centered">
             <TeamMember
               pic="/team/caleb.JPG"
               name="Caleb Thomas"
@@ -165,10 +165,10 @@ export default (props) => {
             />
 
             <TeamMember
-              pic="/team/ralph.jpg"
-              name="Ralph Sun"
+              pic="/team/emily.jpeg"
+              name="Emily Liu"
               title="Director of Sponsorship"
-              link="https://www.linkedin.com/in/ralphsun/"
+              link="https://www.linkedin.com/in/emily-liu-a5aa05129/"
               colClass="is-one-third"
             />
 
@@ -181,16 +181,16 @@ export default (props) => {
             />
 
             <TeamMember
-              pic="/team/emily.jpeg"
-              name="Emily Liu"
+              pic="/team/ralph.jpg"
+              name="Ralph Sun"
               title="Director of Sponsorship"
-              link="https://www.linkedin.com/in/emily-liu-a5aa05129/"
+              link="https://www.linkedin.com/in/ralphsun/"
               colClass="is-one-third"
             />
           </div>
 
           <h2>Marketing</h2>
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-centered">
             <TeamMember
               pic="/team/diya.JPG"
               name="Diya Mehta"
@@ -208,24 +208,24 @@ export default (props) => {
             />
 
             <TeamMember
-              pic="/team/benton.JPG"
-              name="Benton Yee"
-              title="Director of Marketing"
-              link="https://www.linkedin.com/in/bentonyee/"
-              colClass="is-one-third"
-            />
-
-            <TeamMember
               pic="/team/fedja.jpeg"
               name="Fedja Čelebić"
               title="Director of Marketing"
               link="https://www.linkedin.com/in/fedja-celebic-413820149/"
               colClass="is-one-third"
             />
+
+            <TeamMember
+              pic="/team/benton.JPG"
+              name="Benton Yee"
+              title="Director of Marketing"
+              link="https://www.linkedin.com/in/bentonyee/"
+              colClass="is-one-third"
+            />
           </div>
 
           <h2>Special Projects</h2>
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-centered">
             <TeamMember
               pic="/team/devika.png"
               name="Devika Kumar"

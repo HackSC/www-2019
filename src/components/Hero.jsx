@@ -17,7 +17,7 @@ export default (props) => (
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-half details-column">
-              <img src={hacksc} alt="HackSC" className="hacksc"/>
+              <img src={hacksc} alt="HackSC 2019" className="hacksc"/>
               <hr/>
               <h2 className="title">April 12-14, 2019</h2>
               <h2 className="title city">Los Angeles, CA</h2>

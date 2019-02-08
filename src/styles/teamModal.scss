@@ -1,3 +1,4 @@
+@import "~bulma/sass/utilities/mixins";
 @import './variables';
 
 .modal-content {
@@ -17,6 +18,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 2rem;
   }
 
   h2 {
@@ -24,9 +26,10 @@
     font-family: $heading-font-family;
     color: $secondary;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
   }
 
   .team-member {
@@ -42,6 +45,10 @@
     border-radius: 999px;
     overflow: hidden;
     width: 100%;
+
+    @include mobile {
+      width: 75%;
+    }
   }
 }
 
