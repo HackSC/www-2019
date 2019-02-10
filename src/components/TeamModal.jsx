@@ -23,7 +23,7 @@ export default (props) => {
               name="Stiven Deleur"
               title="Executive Director"
               link="http://stiven.me"
-              colClass="is-half"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -31,7 +31,7 @@ export default (props) => {
               name="Jack Zeiders"
               title="Executive Director"
               link="https://www.linkedin.com/in/john-zeiders/"
-              colClass="is-half"
+              colClass="is-one-third"
             />
 
             <TeamMember

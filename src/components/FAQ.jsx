@@ -17,7 +17,7 @@ export default (props) => (
 
       <Question
         question="Are there travel reimbursements?"
-        answer="Hope you like bus rides! We are sending buses up to the Bay and down to San Diego. Details to be finalized."
+        answer="Hope you like bus rides! We are sending buses throughout the state of California. Details to be finalized."
       />
 
       <Question
