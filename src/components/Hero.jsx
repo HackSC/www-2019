@@ -23,7 +23,7 @@ export default (props) => (
               <h2 className="title city">Los Angeles, CA</h2>
               <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
 
-              <button className="button is-primary is-medium apply-button">Applications Open Feb 10</button>
+              <a className="button is-primary is-medium apply-button" href="https://apply.hacksc.com">Apply Now!</a>
             </div>
 
             <div className="column is-half graphic-col">
