@@ -259,7 +259,7 @@ export default (props) => {
             />
           </div>
 
-          <h2>Former Organizers</h2>
+          <h2>Former Organizers (2017-2018)</h2>
           <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/sampurna.jpg"
