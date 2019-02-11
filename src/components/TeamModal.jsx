@@ -23,7 +23,7 @@ export default (props) => {
               name="Stiven Deleur"
               title="Executive Director"
               link="http://stiven.me"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -31,7 +31,7 @@ export default (props) => {
               name="Jack Zeiders"
               title="Executive Director"
               link="https://www.linkedin.com/in/john-zeiders/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -39,7 +39,7 @@ export default (props) => {
               name="Caleb Thomas"
               title="Lead Director of Sponsorship"
               link="https://www.linkedin.com/in/thomascaleb/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -47,7 +47,7 @@ export default (props) => {
               name="Sam Kushell"
               title="Lead Director of Hacker Experience"
               link="https://www.linkedin.com/in/samkushell/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -55,7 +55,7 @@ export default (props) => {
               name="Wilhelm Willie"
               title="Lead Director of Technology"
               link="http://wilhelmwillie.com"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
           </div>
 
@@ -67,7 +67,7 @@ export default (props) => {
               name="Anjan Amarnath"
               title="Lead Director of Logistics"
               link="https://www.linkedin.com/in/anjan-amarnath/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -75,7 +75,7 @@ export default (props) => {
               name="Lauralee Harper"
               title="Director of Logistics"
               link="https://linkedin.com/in/lauraleeharper/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -83,7 +83,7 @@ export default (props) => {
               name="Anushka Srivastava"
               title="Director of Logistics"
               link="https://linkedin.com/in/anushkasrivastava/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -91,7 +91,7 @@ export default (props) => {
               name="Jane Wang"
               title="Director of Logistics"
               link="https://linkedin.com/in/janelianwang/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -99,7 +99,7 @@ export default (props) => {
               name="Wilhelm Willie"
               title="Lead Director of Technology"
               link="http://wilhelmwillie.com"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -107,7 +107,7 @@ export default (props) => {
               name="Daniel Ho"
               title="Director of Technology"
               link="http://donutdaniel.github.io"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
           </div>
 
@@ -118,7 +118,7 @@ export default (props) => {
               name="Sam Kushell"
               title="Lead Director of Hacker Experience"
               link="https://www.linkedin.com/in/samkushell/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -126,7 +126,7 @@ export default (props) => {
               name="Andreas Bigger"
               title="Director of Hacker Experience"
               link="https://abigger87.github.io/AndreasBigger/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -134,7 +134,7 @@ export default (props) => {
               name="Michelle Renee Sacks"
               title="Director of Hacker Experience"
               link="https://www.linkedin.com/in/michelle-sacks/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -142,7 +142,7 @@ export default (props) => {
               name="Arielle Smith"
               title="External Relations Advisor"
               link="https://www.linkedin.com/in/ariellewsmith/detail/photo/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -150,7 +150,7 @@ export default (props) => {
               name="Katherine Wong"
               title="Director of Hacker Experience"
               link="https://www.linkedin.com/in/katherine-wong-04938216b"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
           </div>
 
@@ -161,7 +161,7 @@ export default (props) => {
               name="Caleb Thomas"
               title="Lead Director of Sponsorship"
               link="https://www.linkedin.com/in/thomascaleb/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -169,7 +169,7 @@ export default (props) => {
               name="Emily Liu"
               title="Director of Sponsorship"
               link="https://www.linkedin.com/in/emily-liu-a5aa05129/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -177,7 +177,7 @@ export default (props) => {
               name="Sakura Rapolu"
               title="Director of Sponsorship"
               link="https://www.instagram.com/sakurawrr/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -185,7 +185,7 @@ export default (props) => {
               name="Ralph Sun"
               title="Director of Sponsorship"
               link="https://www.linkedin.com/in/ralphsun/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
           </div>
 
@@ -196,7 +196,7 @@ export default (props) => {
               name="Diya Mehta"
               title="Lead Director of Marketing"
               link="https://www.linkedin.com/in/diyamehta/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -204,7 +204,7 @@ export default (props) => {
               name="Jenny Chung"
               title="Lead Director of Design"
               link="http://chungjenny.com"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -212,7 +212,7 @@ export default (props) => {
               name="Fedja Čelebić"
               title="Director of Marketing"
               link="https://www.linkedin.com/in/fedja-celebic-413820149/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -220,7 +220,7 @@ export default (props) => {
               name="Benton Yee"
               title="Director of Marketing"
               link="https://www.linkedin.com/in/bentonyee/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
           </div>
 
@@ -231,7 +231,7 @@ export default (props) => {
               name="Devika Kumar"
               title="Lead Director of Special Projects"
               link="https://www.linkedin.com/in/devika-kumar-69b880142/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -239,7 +239,7 @@ export default (props) => {
               name="Margaret Bowen"
               title="Director of Special Projects"
               link="https://www.youtube.com/channel/UCEHpVkS-p87QMtJgOgDdItQ"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -247,7 +247,7 @@ export default (props) => {
               name="Forrest Dunlap"
               title="Director of Special Projects"
               link="https://www.linkedin.com/in/forrest-dunlap/"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
 
             <TeamMember
@@ -255,7 +255,7 @@ export default (props) => {
               name="Alexander Kuo"
               title="Director of Special Projects"
               link="https://www.linkedin.com/in/alexkuo98"
-              colClass="is-one-quarter"
+              colClass="is-one-third"
             />
           </div>
 
