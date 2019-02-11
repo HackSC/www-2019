@@ -29,7 +29,7 @@ export default (props) => (
     <div className="column">
       <Question
         question="What should I bring?"
-        answer="All hackers must bring a valid student ID for admission (the name on the ID must match that on your HackSC application). Definitely bring your laptop, charger, and any hackathon gear you may need for your creation. We also strongly recommend bringing a sleeping bag and toiletries for when you need to rest and wash up. One more way HackSC differs from other hackathons is that we are great at hygiene."
+        answer="All hackers must bring a valid government ID for admission (the name on the ID must match that on your HackSC application). Definitely bring your laptop, charger, and any hackathon gear you may need for your creation. We also strongly recommend bringing a sleeping bag and toiletries for when you need to rest and wash up. One more way HackSC differs from other hackathons is that we are great at hygiene."
       />
 
       <Question
