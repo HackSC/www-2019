@@ -9,6 +9,7 @@ import city from '../assets/city.png';
 import { Link } from 'react-scroll';
 
 import '../styles/hero.scss'
+import WithGA from './WithGA';
 
 export default (props) => (
   <header>
@@ -22,8 +23,9 @@ export default (props) => (
               <h2 className="title">April 12-14, 2019</h2>
               <h2 className="title city">Los Angeles, CA</h2>
               <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
-
-              <button className="button is-primary is-medium apply-button">Applications Open Feb 10</button>
+              <WithGA action="Clicked Apply">
+                <button className="button is-primary is-medium apply-button" onClick={console.log}>Applications Open Feb 10</button>
+              </WithGA>
             </div>
 
             <div className="column is-half graphic-col">
