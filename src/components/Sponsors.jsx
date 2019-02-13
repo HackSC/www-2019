@@ -38,7 +38,7 @@ export default (props) => (
         <img src={crowdstrike} alt="Crowdstrike" className="sponsor mid"/>
       </a>
 
-      <a href="//legalzoom.com" target="_blank" rel="noopener noreferrer">
+      <a href="//www.legalzoom.com" target="_blank" rel="noopener noreferrer">
         <img src={legalzoom} alt="LegalZoom" className="sponsor mid"/>
       </a>
 
