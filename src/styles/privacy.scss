@@ -1,0 +1,51 @@
+@import "~bulma/sass/utilities/mixins";
+@import './variables';
+
+.modal-content {
+  width: 90%;
+  max-width: 960px;
+}
+
+.privacy-modal {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  p {
+      color: $dark;
+      text-align: justify;
+      font-size: .9rem;
+      margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-family: $heading-font-family;
+    color: $dark;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: .25rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-family: $heading-font-family;
+    color: $secondary;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+}
+
+.modal-background {
+  overflow: hidden;
+}
