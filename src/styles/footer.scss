@@ -6,4 +6,14 @@ footer {
     color: #FFFFFF;
     font-weight: 200;
   }
+  
+  p.fake-link {
+    color: $primary;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  p.fake-link:hover{
+    opacity: .5;
+  }
 }
