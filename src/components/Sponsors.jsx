@@ -5,7 +5,7 @@ import facebook from '../assets/sponsors/facebook.svg';
 import headspace from '../assets/sponsors/headspace.png';
 import crowdstrike from '../assets/sponsors/crowdstrike.png';
 import legalzoom from '../assets/sponsors/legalzoom.svg';
-import omnisci from '../assets/sponsors/omnisci.png';
+import omnisci from '../assets/sponsors/omnisci.svg';
 import smartcar from '../assets/sponsors/smartcar.png';
 import thetradedesk from '../assets/sponsors/thetradedesk.svg';
 import gcp from '../assets/sponsors/gcp.png';
