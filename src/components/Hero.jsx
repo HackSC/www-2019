@@ -9,7 +9,6 @@ import city from '../assets/city.png';
 import { Link } from 'react-scroll';
 
 import '../styles/hero.scss'
-import WithGA from './WithGA';
 
 export default (props) => (
   <header>
