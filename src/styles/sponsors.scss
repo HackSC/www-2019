@@ -1,4 +1,4 @@
-@import "~bulma/sass/utilities/mixins";
+@import '~bulma/sass/utilities/mixins';
 
 .sponsors-gallery {
   margin-top: 5rem;
@@ -15,7 +15,7 @@
 }
 
 .bottom-tier {
-  width: 50%;
+  width: 65%;
   margin: 2rem auto;
 
   @include mobile {
@@ -48,12 +48,12 @@
   }
 
   &.bottom {
-    width: 33%;
+    width: 25%;
     padding: 0.5rem;
     box-sizing: border-box;
 
     @include mobile {
-      width: 30%;
+      width: 25%;
     }
   }
 }

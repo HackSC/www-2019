@@ -17,7 +17,7 @@ export default (props) => {
 
           <h2>E-Board</h2>
 
-          <div class="columns is-multiline is-centered">
+          <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/stiven.jpg"
               name="Stiven Deleur"
@@ -61,7 +61,7 @@ export default (props) => {
 
           <h2>Logistics</h2>
 
-          <div class="columns is-multiline is-centered">
+          <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/anjan.JPG"
               name="Anjan Amarnath"
@@ -112,7 +112,7 @@ export default (props) => {
           </div>
 
           <h2>Hacker Experience</h2>
-          <div class="columns is-multiline is-centered">
+          <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/sam.jpg"
               name="Sam Kushell"
@@ -155,7 +155,7 @@ export default (props) => {
           </div>
 
           <h2>Sponsorship</h2>
-          <div class="columns is-multiline is-centered">
+          <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/caleb.JPG"
               name="Caleb Thomas"
@@ -190,7 +190,7 @@ export default (props) => {
           </div>
 
           <h2>Marketing</h2>
-          <div class="columns is-multiline is-centered">
+          <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/diya.JPG"
               name="Diya Mehta"
@@ -225,7 +225,7 @@ export default (props) => {
           </div>
 
           <h2>Special Projects</h2>
-          <div class="columns is-multiline is-centered">
+          <div className="columns is-multiline is-centered">
             <TeamMember
               pic="/team/devika.png"
               name="Devika Kumar"
@@ -256,6 +256,73 @@ export default (props) => {
               title="Director of Special Projects"
               link="https://www.linkedin.com/in/alexkuo98"
               colClass="is-one-third"
+            />
+          </div>
+
+          <h2>Former Organizers (2017-2018)</h2>
+          <div className="columns is-multiline is-centered">
+            <TeamMember
+              pic="/team/sampurna.jpg"
+              name="Sampurna Basu"
+              title="President (2017)"
+              link="https://www.linkedin.com/in/sampurnabasu"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/anant.jpeg"
+              name="Anant Jain"
+              title="President (2018)"
+              link="https://anantjain.io"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/rachit.jpg"
+              name="Rachit Kataria"
+              title="Lead Director of Logistics"
+              link="http://rachitkataria.me"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/ankur.jpg"
+              name="Ankur Rastogi"
+              title="Lead Director of Logistics"
+              link="http://ankurrastogi.me"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/kelly.jpeg"
+              name="Kelly Lampotang"
+              title="Lead Director of Marketing and Outreach"
+              link="https://klampotang.weebly.com"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/jonluca.jpg"
+              name="JonLuca De Caro"
+              title="Lead Director of Marketing and Outreach"
+              link="https://jonlu.ca"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/pavan.jpg"
+              name="Pavan Shah"
+              title="Lead Director of Sponsorship"
+              link="https://www.linkedin.com/in/pavanshah1"
+              colClass="is-one-quarter"
+            />
+
+            <TeamMember
+              pic="/team/andrew.jpg"
+              name="Andrew Jiang"
+              title="Lead Director of Branding"
+              link="http://andrewjiang.com"
+              colClass="is-one-quarter"
             />
           </div>
         </div>

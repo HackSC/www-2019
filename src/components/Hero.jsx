@@ -23,9 +23,8 @@ export default (props) => (
               <h2 className="title">April 12-14, 2019</h2>
               <h2 className="title city">Los Angeles, CA</h2>
               <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
-              <WithGA action="Clicked Apply">
-                <button className="button is-primary is-medium apply-button" onClick={console.log}>Applications Open Feb 10</button>
-              </WithGA>
+
+              <a className="button is-primary is-medium apply-button" href="https://apply.hacksc.com">Apply Now!</a>
             </div>
 
             <div className="column is-half graphic-col">

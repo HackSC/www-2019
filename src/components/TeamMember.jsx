@@ -2,7 +2,7 @@ import React from "react"
 
 export default (props) => {
   return (
-    <div class={"column team-member " + props.colClass}>
+    <div className={"column team-member " + props.colClass}>
       <a href={props.link} target="_blank" rel="noopener noreferrer">
         <img src={props.pic} alt={props.name} className="team-member-pic"/>
       </a>
