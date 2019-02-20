@@ -24,6 +24,10 @@ export default (props) => (
               <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
 
               <a className="button is-primary is-medium apply-button" href="https://apply.hacksc.com">Apply Now!</a>
+              <p className="due-dates">
+                <b>General Apps Due: </b> March 3, 2019<br/>
+                <b>USC Apps Due: </b> March 10, 2019
+              </p>
             </div>
 
             <div className="column is-half graphic-col">
