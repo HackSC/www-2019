@@ -1,15 +1,15 @@
-import React from "react"
+import React from 'react';
 
-import "../styles/teamModal.scss";
+import '../styles/teamModal.scss';
 
 import TeamMember from './TeamMember';
 
-export default (props) => {
-  const modalClass = (props.isActive) ? 'modal is-active' : 'modal'
+export default props => {
+  const modalClass = props.isActive ? 'modal is-active' : 'modal';
 
   return (
     <div className={modalClass}>
-      <div className="modal-background" onClick={props.hideModal}></div>
+      <div className="modal-background" onClick={props.hideModal} />
 
       <div className="modal-content">
         <div className="box team-modal">
@@ -211,7 +211,7 @@ export default (props) => {
               pic="/team/fedja.jpeg"
               name="Fedja Čelebić"
               title="Director of Marketing"
-              link="https://www.linkedin.com/in/fedja-celebic-413820149/"
+              link="https://www.fedjalouis.com"
               colClass="is-one-third"
             />
 
@@ -328,7 +328,11 @@ export default (props) => {
         </div>
       </div>
 
-     <button className="modal-close is-large" aria-label="close" onClick={props.hideModal}></button>
+      <button
+        className="modal-close is-large"
+        aria-label="close"
+        onClick={props.hideModal}
+      />
     </div>
-  )
-}
+  );
+};
