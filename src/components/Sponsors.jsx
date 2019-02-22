@@ -12,7 +12,7 @@ import gcp from '../assets/sponsors/gcp.png';
 import viterbi from '../assets/sponsors/viterbi.svg';
 import lavax from '../assets/sponsors/lavax.png';
 import totle from '../assets/sponsors/totle.svg';
-import polarr from '../assets/sponsors/polarr.png';
+import polarr from '../assets/sponsors/polarr.svg';
 import honey from '../assets/sponsors/honey.svg';
 
 import '../styles/sponsors.scss';
@@ -41,12 +41,12 @@ export default props => (
         <img src={headspace} alt="Headspace" className="sponsor mid" />
       </a>
 
-      <a href="//crowdstrike.com" target="_blank" rel="noopener noreferrer">
-        <img src={crowdstrike} alt="Crowdstrike" className="sponsor mid" />
-      </a>
-
       <a href="//polarr.com" target="_blank" rel="noopener noreferrer">
         <img src={polarr} alt="Polarr" className="sponsor mid" />
+      </a>
+
+      <a href="//crowdstrike.com" target="_blank" rel="noopener noreferrer">
+        <img src={crowdstrike} alt="Crowdstrike" className="sponsor mid" />
       </a>
 
       <a href="//www.legalzoom.com" target="_blank" rel="noopener noreferrer">
