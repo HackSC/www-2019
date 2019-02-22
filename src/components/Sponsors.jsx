@@ -41,7 +41,7 @@ export default props => (
         <img src={headspace} alt="Headspace" className="sponsor mid" />
       </a>
 
-      <a href="//polarr.com" target="_blank" rel="noopener noreferrer">
+      <a href="//polarr.co" target="_blank" rel="noopener noreferrer">
         <img src={polarr} alt="Polarr" className="sponsor mid" />
       </a>
 
