@@ -5,12 +5,15 @@ import facebook from '../assets/sponsors/facebook.svg';
 import headspace from '../assets/sponsors/headspace.png';
 import crowdstrike from '../assets/sponsors/crowdstrike.png';
 import legalzoom from '../assets/sponsors/legalzoom.svg';
-import omnisci from '../assets/sponsors/omnisci.svg';
+import omnisci from '../assets/sponsors/omnisci_block.svg';
 import smartcar from '../assets/sponsors/smartcar.png';
 import thetradedesk from '../assets/sponsors/thetradedesk.svg';
 import gcp from '../assets/sponsors/gcp.png';
 import viterbi from '../assets/sponsors/viterbi.svg';
 import lavax from '../assets/sponsors/lavax.png';
+import totle from '../assets/sponsors/totle.svg';
+import polarr from '../assets/sponsors/polarr.png';
+import honey from '../assets/sponsors/honey.svg';
 
 import '../styles/sponsors.scss';
 
@@ -28,6 +31,9 @@ export default props => (
       <a href="//omnisci.com" target="_blank" rel="noopener noreferrer">
         <img src={omnisci} alt="OmniSci" className="sponsor top" />
       </a>
+      <a href="//totle.com" target="_blank" rel="noopener noreferrer">
+        <img src={totle} alt="Totle" className="sponsor top" />
+      </a>
     </div>
 
     <div className="mid-tier">
@@ -39,8 +45,16 @@ export default props => (
         <img src={crowdstrike} alt="Crowdstrike" className="sponsor mid" />
       </a>
 
+      <a href="//polarr.com" target="_blank" rel="noopener noreferrer">
+        <img src={polarr} alt="Polarr" className="sponsor mid" />
+      </a>
+
       <a href="//www.legalzoom.com" target="_blank" rel="noopener noreferrer">
         <img src={legalzoom} alt="LegalZoom" className="sponsor mid" />
+      </a>
+
+      <a href="//joinhoney.com" target="_blank" rel="noopener noreferrer">
+        <img src={honey} alt="Honey" className="sponsor mid" />
       </a>
 
       <a href="//smartcar.com" target="_blank" rel="noopener noreferrer">
