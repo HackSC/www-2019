@@ -5,22 +5,32 @@
 }
 
 .mid-tier {
-  width: 65%;
+  width: 70%;
   margin: 2rem auto;
+  text-align: center;
 
   @include mobile {
     width: 100%;
-    text-align: center;
   }
 }
 
 .bottom-tier {
-  width: 65%;
+  width: 70%;
   margin: 2rem auto;
+  text-align: center;
 
   @include mobile {
     width: 100%;
-    text-align: center;
+  }
+}
+
+.partner-tier {
+  width: 65%;
+  margin: 2rem auto;
+  text-align: center;
+
+  @include mobile {
+    width: 100%;
   }
 }
 
@@ -30,10 +40,18 @@
   &.top {
     width: 50%;
     display: block;
-    margin: 0 auto 4rem;
+    margin: 0 auto 3rem;
 
     @include mobile {
       width: 100%;
+    }
+  }
+
+  &.aws {
+    width: 30%;
+
+    @include mobile {
+      width: 60%;
     }
   }
 
@@ -48,6 +66,16 @@
   }
 
   &.bottom {
+    width: 33%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    @include mobile {
+      width: 33%;
+    }
+  }
+
+  &.partner {
     width: 25%;
     padding: 0.5rem;
     box-sizing: border-box;
