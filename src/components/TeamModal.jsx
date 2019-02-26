@@ -302,14 +302,6 @@ export default props => {
             />
 
             <TeamMember
-              pic="/team/jonluca.jpg"
-              name="JonLuca De Caro"
-              title="Lead Director of Marketing and Outreach"
-              link="https://jonlu.ca"
-              colClass="is-one-quarter"
-            />
-
-            <TeamMember
               pic="/team/pavan.jpg"
               name="Pavan Shah"
               title="Lead Director of Sponsorship"
