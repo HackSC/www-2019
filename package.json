@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +29,7 @@
   "devDependencies": {
     "bulma": "^0.7.2",
     "node-sass": "^4.11.0",
-    "react-scroll": "^1.7.10"
+    "react-scroll": "^1.7.10",
+    "react-snap": "^1.23.0"
   }
 }
