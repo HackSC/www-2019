@@ -26,8 +26,8 @@ export default (props) => (
               <a className="button is-primary is-medium apply-button" href="https://apply.hacksc.com">Apply Now!</a>
 
               <div className="vol-men-forms">
-                <a className="button form-button" href="https://apply.hacksc.com">Volunteer!</a>
-                <a className="button form-button" href="https://apply.hacksc.com">Mentor!</a>
+                <a className="button form-button" href="https://hacksc.typeform.com/to/eGxqro" target="_blank" rel="noopener noreferrer">Volunteer!</a>
+                <a className="button form-button" href="https://hacksc.typeform.com/to/ES7lqv" target="_blank" rel="noopener noreferrer">Mentor!</a>
               </div>
 
               <p className="due-dates">
