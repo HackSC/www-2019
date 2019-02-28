@@ -139,6 +139,8 @@
     }
 
     .apply-button {
+      width: 50%;
+
       @include until($tablet) {
         font-size: 1.1rem;
       }
@@ -151,6 +153,38 @@
         text-align: center;
       }
     }
+
+    .vol-men-forms {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      padding-top: 0.5rem;
+
+      @include until($tablet) {
+        margin: 0 auto;
+        flex-wrap: wrap;
+      }
+
+      .button {
+        flex-basis: 48%;
+        background-color: #E6194B;
+        color: #FFFFFF;
+        border: none;
+
+        &:hover {
+          background-color: darken(#E6194B, 5%);
+        }
+
+        @include until($tablet) {
+          flex-basis: 100%;
+
+          &:first-child {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+
     animation-name: fadeIn;
     animation-duration: 1.5s;
   }

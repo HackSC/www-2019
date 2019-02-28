@@ -24,6 +24,12 @@ export default (props) => (
               <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
 
               <a className="button is-primary is-medium apply-button" href="https://apply.hacksc.com">Apply Now!</a>
+
+              <div className="vol-men-forms">
+                <a className="button form-button" href="https://hacksc.typeform.com/to/eGxqro" target="_blank" rel="noopener noreferrer">Volunteer!</a>
+                <a className="button form-button" href="https://hacksc.typeform.com/to/ES7lqv" target="_blank" rel="noopener noreferrer">Mentor!</a>
+              </div>
+
               <p className="due-dates">
                 <b>General Apps Due: </b> March 3, 2019<br/>
                 <b>USC Apps Due: </b> March 10, 2019
