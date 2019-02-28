@@ -81,7 +81,7 @@ export default props => {
 <TeamMember
               pic="/team/hussain.jpg"
               name="Hussain Mangalji"
-              title="Lead Director of Technology"
+              title="Director of Logistics"
               link="https://www.linkedin.com/in/hussain-mangalji-0b6103150"
               colClass="is-one-third"
             />
