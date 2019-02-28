@@ -78,11 +78,27 @@ export default props => {
               colClass="is-one-third"
             />
 
+<TeamMember
+              pic="/team/hussain.jpg"
+              name="Hussain Mangalji"
+              title="Director of Logistics"
+              link="https://www.linkedin.com/in/hussain-mangalji-0b6103150"
+              colClass="is-one-third"
+            />
+
             <TeamMember
               pic="/team/anushka.jpg"
               name="Anushka Srivastava"
               title="Director of Logistics"
               link="https://linkedin.com/in/anushkasrivastava/"
+              colClass="is-one-third"
+            />
+
+<TeamMember
+              pic="/team/arjun.jpg"
+              name="Arjun Viswanathan"
+              title="Director of Logistics"
+              link="https://www.linkedin.com/in/arjun-viswanathan-b644a6125"
               colClass="is-one-third"
             />
 
@@ -93,6 +109,12 @@ export default props => {
               link="https://linkedin.com/in/janelianwang/"
               colClass="is-one-third"
             />
+
+          </div>
+
+          <h2>Engineering</h2>
+
+          <div className="columns is-multiline is-centered">
 
             <TeamMember
               pic="/team/willie.jpg"
@@ -210,7 +232,7 @@ export default props => {
             <TeamMember
               pic="/team/fedja.jpeg"
               name="Fedja Čelebić"
-              title="Director of Marketing"
+              title="Director of PR"
               link="https://www.fedjalouis.com"
               colClass="is-one-third"
             />
