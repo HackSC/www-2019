@@ -15,6 +15,10 @@ import totle from '../assets/sponsors/totle.svg';
 import polarr from '../assets/sponsors/polarr.svg';
 import honey from '../assets/sponsors/honey.svg';
 import aws from '../assets/sponsors/aws.svg';
+import itrade from '../assets/sponsors/itrade.svg';
+import mux from '../assets/sponsors/mux.svg';
+import transposit from '../assets/sponsors/transposit1.png';
+import jumpstart from '../assets/sponsors/jumpstart.svg';
 
 import '../styles/sponsors.scss';
 
@@ -38,6 +42,9 @@ export default props => (
       <a href="//omnisci.com" target="_blank" rel="noopener noreferrer">
         <img src={omnisci} alt="OmniSci" className="sponsor mid" />
       </a>
+      <a href="//itradenetwork.com" target="_blank" rel="noopener noreferrer">
+        <img src={itrade} alt="iTradeNetwork" className="sponsor mid" />
+      </a>
       <a href="//totle.com" target="_blank" rel="noopener noreferrer">
         <img src={totle} alt="Totle" className="sponsor mid" />
       </a>
@@ -46,6 +53,10 @@ export default props => (
     <div className="bottom-tier">
       <a href="//headspace.com" target="_blank" rel="noopener noreferrer">
         <img src={headspace} alt="Headspace" className="sponsor bottom" />
+      </a>
+
+      <a href="//transposit.com" target="_blank" rel="noopener noreferrer">
+        <img src={transposit} alt="Transposit" className="sponsor bottom" />
       </a>
 
       <a href="//polarr.ai" target="_blank" rel="noopener noreferrer">
@@ -67,19 +78,23 @@ export default props => (
       <a href="//smartcar.com" target="_blank" rel="noopener noreferrer">
         <img src={smartcar} alt="SmartCar" className="sponsor bottom" />
       </a>
-    </div>
 
-    <div className="partner-tier">
-      <a href="//amplifyla.com" target="_blank" rel="noopener noreferrer">
-        <img src={amplify} alt="Amplify LA" className="sponsor partner" />
+      <a href="//mux.com" target="_blank" rel="noopener noreferrer">
+        <img src={mux} alt="Mux" className="sponsor bottom" />
       </a>
 
       <a href="//cloud.google.com" target="_blank" rel="noopener noreferrer">
-        <img
-          src={gcp}
-          alt="Google Cloud Platform"
-          className="sponsor partner"
-        />
+        <img src={gcp} alt="Google Cloud Platform" className="sponsor bottom" />
+      </a>
+    </div>
+
+    <div className="partner-tier">
+      <a href="//jumpstart.me" target="_blank" rel="noopener noreferrer">
+        <img src={jumpstart} alt="Jumpstart" className="sponsor partner" />
+      </a>
+
+      <a href="//amplifyla.com" target="_blank" rel="noopener noreferrer">
+        <img src={amplify} alt="Amplify LA" className="sponsor partner" />
       </a>
 
       <a
