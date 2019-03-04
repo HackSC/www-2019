@@ -31,8 +31,7 @@ export default (props) => (
               </div>
 
               <p className="due-dates">
-                <b>General Apps Due: </b> March 3, 2019<br/>
-                <b>USC Apps Due: </b> March 10, 2019
+                <b>All Apps Due: </b> March 10, 2019
               </p>
             </div>
 
