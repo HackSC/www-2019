@@ -20,6 +20,7 @@ import mux from '../assets/sponsors/mux.svg';
 import transposit from '../assets/sponsors/transposit1.png';
 import jumpstart from '../assets/sponsors/jumpstart.svg';
 import stickermule from '../assets/sponsors/stickermule.svg';
+import att from '../assets/sponsors/att.svg';
 
 import '../styles/sponsors.scss';
 
@@ -92,6 +93,10 @@ export default props => (
     <div className="partner-tier">
       <a href="//jumpstart.me" target="_blank" rel="noopener noreferrer">
         <img src={jumpstart} alt="Jumpstart" className="sponsor partner" />
+      </a>
+
+      <a href="//att.jobs/college" target="_blank" rel="noopener noreferrer">
+        <img src={att} alt="AT&T" className="sponsor partner" />
       </a>
 
       <a href="//amplifyla.com" target="_blank" rel="noopener noreferrer">
