@@ -19,6 +19,7 @@ import itrade from '../assets/sponsors/itrade.svg';
 import mux from '../assets/sponsors/mux.svg';
 import transposit from '../assets/sponsors/transposit1.png';
 import jumpstart from '../assets/sponsors/jumpstart.svg';
+import stickermule from '../assets/sponsors/stickermule.svg';
 
 import '../styles/sponsors.scss';
 
@@ -98,6 +99,18 @@ export default props => (
       </a>
 
       <a
+        href="//hackp.ac/mlh-stickermule-hackathons"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={stickermule} alt="StickerMule" className="sponsor partner" />
+      </a>
+
+      <a href="//usclavax.com" target="_blank" rel="noopener noreferrer">
+        <img src={lavax} alt="LavaX" className="sponsor partner" />
+      </a>
+
+      <a
         href="//viterbischool.usc.edu"
         target="_blank"
         rel="noopener noreferrer"
@@ -107,10 +120,6 @@ export default props => (
           alt="USC Viterbi School of Engineering"
           className="sponsor partner"
         />
-      </a>
-
-      <a href="//usclavax.com" target="_blank" rel="noopener noreferrer">
-        <img src={lavax} alt="LavaX" className="sponsor partner" />
       </a>
     </div>
   </div>
