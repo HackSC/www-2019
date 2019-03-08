@@ -85,4 +85,13 @@
       width: 25%;
     }
   }
+
+  &.vertical {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    @include mobile {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
 }

@@ -17,11 +17,12 @@ import honey from '../assets/sponsors/honey.svg';
 import aws from '../assets/sponsors/aws.svg';
 import itrade from '../assets/sponsors/itrade.svg';
 import mux from '../assets/sponsors/mux.svg';
-import transposit from '../assets/sponsors/transposit1.png';
+import transposit from '../assets/sponsors/transposit2.png';
 import jumpstart from '../assets/sponsors/jumpstart.svg';
 import stickermule from '../assets/sponsors/stickermule.svg';
 import att from '../assets/sponsors/att.svg';
 import apicloud from '../assets/sponsors/apicloud.svg';
+import tec from '../assets/sponsors/tec.svg';
 
 import '../styles/sponsors.scss';
 
@@ -38,7 +39,11 @@ export default props => (
     </div>
 
     <div className="mid-tier">
-      <a href="//thetradedesk.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="//www.thetradedesk.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={thetradedesk} alt="theTradeDesk" className="sponsor mid" />
       </a>
 
@@ -78,6 +83,10 @@ export default props => (
 
       <a href="//joinhoney.com" target="_blank" rel="noopener noreferrer">
         <img src={honey} alt="Honey" className="sponsor bottom" />
+      </a>
+
+      <a href="sponsors/tec_qr.png" target="_blank" rel="noopener noreferrer">
+        <img src={tec} alt="Tec" className="sponsor bottom vertical" />
       </a>
 
       <a href="//smartcar.com" target="_blank" rel="noopener noreferrer">
