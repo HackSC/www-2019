@@ -21,6 +21,7 @@ import transposit from '../assets/sponsors/transposit1.png';
 import jumpstart from '../assets/sponsors/jumpstart.svg';
 import stickermule from '../assets/sponsors/stickermule.svg';
 import att from '../assets/sponsors/att.svg';
+import apicloud from '../assets/sponsors/apicloud.svg';
 
 import '../styles/sponsors.scss';
 
@@ -47,8 +48,14 @@ export default props => (
       <a href="//itradenetwork.com" target="_blank" rel="noopener noreferrer">
         <img src={itrade} alt="iTradeNetwork" className="sponsor mid" />
       </a>
+      <a href="//apicloud.com" target="_blank" rel="noopener noreferrer">
+        <img src={apicloud} alt="APICloud" className="sponsor mid" />
+      </a>
       <a href="//totle.com" target="_blank" rel="noopener noreferrer">
         <img src={totle} alt="Totle" className="sponsor mid" />
+      </a>
+      <a href="//polarr.ai" target="_blank" rel="noopener noreferrer">
+        <img src={polarr} alt="Polarr" className="sponsor mid" />
       </a>
     </div>
 
@@ -59,10 +66,6 @@ export default props => (
 
       <a href="//transposit.com" target="_blank" rel="noopener noreferrer">
         <img src={transposit} alt="Transposit" className="sponsor bottom" />
-      </a>
-
-      <a href="//polarr.ai" target="_blank" rel="noopener noreferrer">
-        <img src={polarr} alt="Polarr" className="sponsor bottom" />
       </a>
 
       <a href="//crowdstrike.com" target="_blank" rel="noopener noreferrer">
