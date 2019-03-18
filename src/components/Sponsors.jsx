@@ -29,12 +29,12 @@ import '../styles/sponsors.scss';
 export default props => (
   <div className="sponsors-gallery">
     <div className="top-tier">
-      <a href="//developer.aws" target="_blank" rel="noopener noreferrer">
-        <img src={aws} alt="AWS" className="sponsor top aws" />
-      </a>
-
       <a href="//facebook.com" target="_blank" rel="noopener noreferrer">
         <img src={facebook} alt="Facebook" className="sponsor top" />
+      </a>
+
+      <a href="//developer.aws" target="_blank" rel="noopener noreferrer">
+        <img src={aws} alt="AWS" className="sponsor top aws" />
       </a>
     </div>
 
@@ -62,15 +62,14 @@ export default props => (
       <a href="//polarr.ai" target="_blank" rel="noopener noreferrer">
         <img src={polarr} alt="Polarr" className="sponsor mid" />
       </a>
+      <a href="//transposit.com" target="_blank" rel="noopener noreferrer">
+        <img src={transposit} alt="Transposit" className="sponsor mid" />
+      </a>
     </div>
 
     <div className="bottom-tier">
       <a href="//headspace.com" target="_blank" rel="noopener noreferrer">
         <img src={headspace} alt="Headspace" className="sponsor bottom" />
-      </a>
-
-      <a href="//transposit.com" target="_blank" rel="noopener noreferrer">
-        <img src={transposit} alt="Transposit" className="sponsor bottom" />
       </a>
 
       <a href="//crowdstrike.com" target="_blank" rel="noopener noreferrer">
