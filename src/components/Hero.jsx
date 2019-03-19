@@ -54,7 +54,11 @@ export default props => (
               </div>
 
               <p className="due-dates">
-                <b>Apps are closed!</b>
+                <b>Applications for HackSC 2019 are now closed.</b> However,
+                it's still not too late to apply as a mentor or volunteer! Click
+                one of the above buttons to apply for either. If you already
+                applied, you may check on your status through the application
+                button.
               </p>
             </div>
 
