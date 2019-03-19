@@ -53,9 +53,11 @@ class App extends Component {
                       <b>Location</b>
                       <br />
                       <em>
-                        University of Southern California
+                        California Market Center
                         <br />
-                        Los Angeles, CA 90007
+                        110 E 9th Street
+                        <br />
+                        Los Angeles, CA 90079
                       </em>
                     </p>
 

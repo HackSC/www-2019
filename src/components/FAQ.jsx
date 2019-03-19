@@ -22,7 +22,7 @@ export default (props) => (
 
       <Question
         question="What if my question isn't here?"
-        answer={(<span>You can message and/or email us your questions! Feel free to reach out to us at <a href='mailto:team@hacksc.com'>team@hacksc.com</a> or on social media!</span>)}
+        answer={(<span>You can message and/or email us your questions! Feel free to reach out to us at <a href='mailto:hackers@hacksc.com'>hackers@hacksc.com</a> or on social media!</span>)}
       />
     </div>
 
