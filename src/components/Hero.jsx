@@ -23,7 +23,7 @@ export default (props) => (
               <h2 className="title city">Los Angeles, CA</h2>
               <p className="subtitle">Hackathon, but we do it better.<br/>Hosted by USC, baby.</p>
 
-              <button className="button is-disabled is-medium apply-button">Apps Closed</button>
+              <a className="button is-primary is-medium apply-button" href="https://apply.hacksc.com">Application</a>
 
               <div className="vol-men-forms">
                 <a className="button form-button" href="https://hacksc.typeform.com/to/eGxqro" target="_blank" rel="noopener noreferrer">Volunteer!</a>
@@ -31,7 +31,7 @@ export default (props) => (
               </div>
 
               <p className="due-dates">
-                <b>Applications for HackSC 2019 are now closed.</b> However, it's still not too late to apply as a mentor or volunteer! Click one of the above buttons to apply for either
+                <b>Applications for HackSC 2019 are now closed.</b> However, it's still not too late to apply as a mentor or volunteer! Click one of the above buttons to apply for either. If you already applied, you may check on your status through the application button.
               </p>
             </div>
 
