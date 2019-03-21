@@ -23,6 +23,7 @@ import stickermule from '../assets/sponsors/stickermule.svg';
 import att from '../assets/sponsors/att.svg';
 import apicloud from '../assets/sponsors/apicloud.svg';
 import tec from '../assets/sponsors/tec.svg';
+import tec2 from '../assets/sponsors/tec2.svg';
 import github from '../assets/sponsors/github.svg';
 
 import '../styles/sponsors.scss';
@@ -87,6 +88,10 @@ export default props => (
 
       <a href="sponsors/tec_qr.png" target="_blank" rel="noopener noreferrer">
         <img src={tec} alt="Tec" className="sponsor bottom vertical" />
+      </a>
+
+      <a href="sponsors/tec_qr.png" target="_blank" rel="noopener noreferrer">
+        <img src={tec2} alt="Tec2" className="sponsor bottom" />
       </a>
 
       <a href="//smartcar.com" target="_blank" rel="noopener noreferrer">
