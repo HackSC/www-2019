@@ -25,6 +25,7 @@ import apicloud from '../assets/sponsors/apicloud.svg';
 import tec from '../assets/sponsors/tec.svg';
 import tec2 from '../assets/sponsors/tec2.svg';
 import github from '../assets/sponsors/github.svg';
+import sketch from '../assets/sponsors/sketch.svg';
 
 import '../styles/sponsors.scss';
 
@@ -132,6 +133,18 @@ export default props => (
         <img src={stickermule} alt="StickerMule" className="sponsor partner" />
       </a>
 
+      <a
+        href="//sketch.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={sketch}
+          alt="Sketch"
+          className="sponsor partner"
+        />
+      </a>
+      
       <a href="//usclavax.com" target="_blank" rel="noopener noreferrer">
         <img src={lavax} alt="LavaX" className="sponsor partner" />
       </a>
