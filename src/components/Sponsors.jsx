@@ -23,8 +23,10 @@ import stickermule from '../assets/sponsors/stickermule.svg';
 import att from '../assets/sponsors/att.svg';
 import apicloud from '../assets/sponsors/apicloud.svg';
 import tec from '../assets/sponsors/tec.svg';
-import tec2 from '../assets/sponsors/tec2.svg';
+import tec2 from '../assets/sponsors/tec2.png';
 import github from '../assets/sponsors/github.svg';
+import tailoredbrands from '../assets/sponsors/tailoredbrands.svg';
+import blockstack from '../assets/sponsors/blockstack.svg';
 
 import '../styles/sponsors.scss';
 
@@ -48,16 +50,28 @@ export default props => (
       >
         <img src={thetradedesk} alt="theTradeDesk" className="sponsor mid" />
       </a>
+      <a href="//itradenetwork.com" target="_blank" rel="noopener noreferrer">
+        <img src={itrade} alt="iTradeNetwork" className="sponsor mid" />
+      </a>
 
       <a href="//omnisci.com" target="_blank" rel="noopener noreferrer">
         <img src={omnisci} alt="OmniSci" className="sponsor mid" />
       </a>
-      <a href="//itradenetwork.com" target="_blank" rel="noopener noreferrer">
-        <img src={itrade} alt="iTradeNetwork" className="sponsor mid" />
+      <a
+        href="//www.tailoredbrands.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={tailoredbrands}
+          alt="Tailored Brands"
+          className="sponsor mid"
+        />
       </a>
       <a href="//apicloud.com" target="_blank" rel="noopener noreferrer">
         <img src={apicloud} alt="APICloud" className="sponsor mid" />
       </a>
+
       <a href="//totle.com" target="_blank" rel="noopener noreferrer">
         <img src={totle} alt="Totle" className="sponsor mid" />
       </a>
@@ -91,19 +105,22 @@ export default props => (
       </a>
 
       <a href="sponsors/tec_qr.png" target="_blank" rel="noopener noreferrer">
-        <img src={tec2} alt="Tec2" className="sponsor bottom" />
-      </a>
-
-      <a href="//smartcar.com" target="_blank" rel="noopener noreferrer">
-        <img src={smartcar} alt="SmartCar" className="sponsor bottom" />
+        <img src={tec2} alt="Tec2" className="sponsor bottom vertical" />
       </a>
 
       <a href="//mux.com" target="_blank" rel="noopener noreferrer">
         <img src={mux} alt="Mux" className="sponsor bottom" />
       </a>
 
+      <a href="//blockstack.com" target="_blank" rel="noopener noreferrer">
+        <img src={blockstack} alt="Blockstack" className="sponsor bottom" />
+      </a>
+
       <a href="//cloud.google.com" target="_blank" rel="noopener noreferrer">
         <img src={gcp} alt="Google Cloud Platform" className="sponsor bottom" />
+      </a>
+      <a href="//smartcar.com" target="_blank" rel="noopener noreferrer">
+        <img src={smartcar} alt="SmartCar" className="sponsor bottom" />
       </a>
     </div>
 
