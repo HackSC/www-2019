@@ -27,6 +27,7 @@ import tec2 from '../assets/sponsors/tec2.png';
 import github from '../assets/sponsors/github.svg';
 import tailoredbrands from '../assets/sponsors/tailoredbrands.svg';
 import blockstack from '../assets/sponsors/blockstack.svg';
+import sketch from '../assets/sponsors/sketch.svg';
 
 import '../styles/sponsors.scss';
 
@@ -147,6 +148,10 @@ export default props => (
         rel="noopener noreferrer"
       >
         <img src={stickermule} alt="StickerMule" className="sponsor partner" />
+      </a>
+
+      <a href="//sketch.com" target="_blank" rel="noopener noreferrer">
+        <img src={sketch} alt="Sketch" className="sponsor partner" />
       </a>
 
       <a href="//usclavax.com" target="_blank" rel="noopener noreferrer">
