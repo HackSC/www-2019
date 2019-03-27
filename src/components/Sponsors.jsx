@@ -28,6 +28,10 @@ import github from '../assets/sponsors/github.svg';
 import tailoredbrands from '../assets/sponsors/tailoredbrands.svg';
 import blockstack from '../assets/sponsors/blockstack.svg';
 import sketch from '../assets/sponsors/sketch.svg';
+import cloudflare from '../assets/sponsors/cloudflare.svg';
+import synack from '../assets/sponsors/synack.svg';
+import ea from '../assets/sponsors/ea.svg';
+import n3twork from '../assets/sponsors/n3twork.svg';
 
 import '../styles/sponsors.scss';
 
@@ -109,8 +113,16 @@ export default props => (
         <img src={tec2} alt="Tec2" className="sponsor bottom vertical" />
       </a>
 
+      <a href="n3twork.com" target="_blank" rel="noopener noreferrer">
+        <img src={n3twork} alt="N3TWORK" className="sponsor bottom" />
+      </a>
+
       <a href="//mux.com" target="_blank" rel="noopener noreferrer">
         <img src={mux} alt="Mux" className="sponsor bottom" />
+      </a>
+
+      <a href="//cloudflare.com" target="_blank" rel="noopener noreferrer">
+        <img src={cloudflare} alt="Cloudflare" className="sponsor bottom" />
       </a>
 
       <a href="//blockstack.com" target="_blank" rel="noopener noreferrer">
@@ -126,6 +138,9 @@ export default props => (
     </div>
 
     <div className="partner-tier">
+      <a href="//synack.com" target="_blank" rel="noopener noreferrer">
+        <img src={synack} alt="Synack" className="sponsor partner" />
+      </a>
       <a href="//jumpstart.me" target="_blank" rel="noopener noreferrer">
         <img src={jumpstart} alt="Jumpstart" className="sponsor partner" />
       </a>
@@ -152,6 +167,10 @@ export default props => (
 
       <a href="//sketch.com" target="_blank" rel="noopener noreferrer">
         <img src={sketch} alt="Sketch" className="sponsor partner" />
+      </a>
+
+      <a href="//ea.com" target="_blank" rel="noopener noreferrer">
+        <img src={ea} alt="EA" className="sponsor partner vertical" />
       </a>
 
       <a href="//usclavax.com" target="_blank" rel="noopener noreferrer">
