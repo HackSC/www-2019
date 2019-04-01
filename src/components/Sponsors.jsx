@@ -32,6 +32,7 @@ import cloudflare from '../assets/sponsors/cloudflare.svg';
 import synack from '../assets/sponsors/synack.svg';
 import ea from '../assets/sponsors/ea.svg';
 import n3twork from '../assets/sponsors/n3twork.svg';
+import lyft from '../assets/sponsors/lyft.svg';
 
 import '../styles/sponsors.scss';
 
@@ -171,6 +172,10 @@ export default props => (
 
       <a href="//ea.com" target="_blank" rel="noopener noreferrer">
         <img src={ea} alt="EA" className="sponsor partner vertical" />
+      </a>
+
+      <a href="//lyft.com" target="_blank" rel="noopener noreferrer">
+        <img src={lyft} alt="Lyft" className="sponsor partner" />
       </a>
 
       <a href="//usclavax.com" target="_blank" rel="noopener noreferrer">
