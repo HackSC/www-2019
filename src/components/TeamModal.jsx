@@ -71,17 +71,9 @@ export default props => {
             />
 
             <TeamMember
-              pic="/team/lauralee.jpg"
-              name="Lauralee Harper"
-              title="Director of Logistics"
-              link="https://linkedin.com/in/lauraleeharper/"
-              colClass="is-one-third"
-            />
-
-<TeamMember
               pic="/team/hussain.jpg"
               name="Hussain Mangalji"
-              title="Director of Logistics"
+              title="Lead Director of Operations"
               link="https://www.linkedin.com/in/hussain-mangalji-0b6103150"
               colClass="is-one-third"
             />
@@ -94,7 +86,7 @@ export default props => {
               colClass="is-one-third"
             />
 
-<TeamMember
+            <TeamMember
               pic="/team/arjun.jpg"
               name="Arjun Viswanathan"
               title="Director of Logistics"
