@@ -263,14 +263,6 @@ export default props => {
               link="https://www.linkedin.com/in/forrest-dunlap/"
               colClass="is-one-third"
             />
-
-            <TeamMember
-              pic="/team/alex.jpg"
-              name="Alexander Kuo"
-              title="Director of Special Projects"
-              link="https://www.linkedin.com/in/alexkuo98"
-              colClass="is-one-third"
-            />
           </div>
 
           <h2>Former Organizers (2017-2018)</h2>
