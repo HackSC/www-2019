@@ -146,6 +146,17 @@
       }
     }
 
+    .portal-button {
+      margin-top: 0.5rem;
+      background-color: $secondary;
+      border: none;
+      color: $white;
+
+      &:hover {
+        background-color: darken($secondary, 5%);
+      }
+    }
+
     .details-column {
       text-align: left;
 

@@ -31,7 +31,18 @@ export default props => (
                 className="button is-primary is-medium apply-button"
                 href="https://live.hacksc.com"
               >
-                HackSC Live!
+                HackSC Live
+              </a>
+
+              <br />
+
+              <a
+                className="button portal-button is-medium apply-button"
+                href="https://apply.hacksc.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Application Portal
               </a>
             </div>
 
