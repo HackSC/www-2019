@@ -29,37 +29,10 @@ export default props => (
 
               <a
                 className="button is-primary is-medium apply-button"
-                href="https://apply.hacksc.com"
+                href="https://live.hacksc.com"
               >
-                Application Portal
+                HackSC Live!
               </a>
-
-              <div className="vol-men-forms">
-                <a
-                  className="button form-button"
-                  href="https://hacksc.typeform.com/to/eGxqro"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Volunteer!
-                </a>
-                <a
-                  className="button form-button"
-                  href="https://hacksc.typeform.com/to/ES7lqv"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Mentor!
-                </a>
-              </div>
-
-              <p className="due-dates">
-                <b>Applications for HackSC 2019 are now closed.</b> However,
-                it's still not too late to apply as a mentor or volunteer! Click
-                one of the above buttons to apply for either. If you already
-                applied, you may check on your status through the application
-                button.
-              </p>
             </div>
 
             <div className="column is-half graphic-col">
