@@ -29,21 +29,14 @@ export default props => (
 
               <a
                 className="button is-primary is-medium apply-button"
-                href="https://live.hacksc.com"
+                href="https://hacksc2019.devpost.com"
               >
-                HackSC Live
+                HackSC Devpost
               </a>
 
-              <br />
+              <br/><br/>
 
-              <a
-                className="button portal-button is-medium apply-button"
-                href="https://apply.hacksc.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Application Portal
-              </a>
+              <p><b>HackSC 2019 has concluded! Thank you to everyone who made this event a success. Stay tuned for updates for HackSC 2020 👀</b></p>
             </div>
 
             <div className="column is-half graphic-col">
