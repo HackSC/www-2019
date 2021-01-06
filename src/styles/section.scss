@@ -1,5 +1,8 @@
+@import "~bulma/sass/utilities/functions";
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/derived-variables";
 @import "~bulma/sass/utilities/mixins";
-@import './variables';
+@import "./variables";
 
 .section {
   .title {
@@ -48,7 +51,7 @@
     font-weight: 100;
     line-height: 4rem;
     font-style: italic;
-    color: #CCCCCC;
+    color: #cccccc;
   }
 
   &.faq {

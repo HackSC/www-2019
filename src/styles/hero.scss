@@ -1,33 +1,56 @@
+@import "~bulma/sass/utilities/functions";
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/derived-variables";
 @import "~bulma/sass/utilities/mixins";
 @import "./variables";
 
 // Click to scroll bounce animation
 @-webkit-keyframes bounce {
-  0%   {bottom: 16px;}
-  40%  {bottom: 24px;}
-  80%  {bottom: 16px;}
+  0% {
+    bottom: 16px;
+  }
+  40% {
+    bottom: 24px;
+  }
+  80% {
+    bottom: 16px;
+  }
 }
 
 @keyframes bounce {
-  0%   {bottom: 16px;}
-  40%  {bottom: 24px;}
-  80%  {bottom: 16px;}
+  0% {
+    bottom: 16px;
+  }
+  40% {
+    bottom: 24px;
+  }
+  80% {
+    bottom: 16px;
+  }
 }
 
 // Fade in LA skyline animation
 @-webkit-keyframes fadeIn {
-  0%   {opacity: 0;}
-  100%  {bottom: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    bottom: 1;
+  }
 }
 
 @keyframes fadeIn {
-  0%   {opacity: 0;}
-  100%  {bottom: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    bottom: 1;
+  }
 }
 
 .hero.is-primary {
-  background: #FFFFFF;
-  color: #1A1A1A;
+  background: #ffffff;
+  color: #1a1a1a;
   position: relative;
 
   .hero-body {
@@ -178,12 +201,12 @@
 
       .button {
         flex-basis: 48%;
-        background-color: #E6194B;
-        color: #FFFFFF;
+        background-color: #e6194b;
+        color: #ffffff;
         border: none;
 
         &:hover {
-          background-color: darken(#E6194B, 5%);
+          background-color: darken(#e6194b, 5%);
         }
 
         @include until($tablet) {

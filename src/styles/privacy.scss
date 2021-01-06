@@ -1,5 +1,8 @@
+@import "~bulma/sass/utilities/functions";
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/derived-variables";
 @import "~bulma/sass/utilities/mixins";
-@import './variables';
+@import "./variables";
 
 .modal-content {
   width: 90%;
@@ -12,10 +15,10 @@
   margin: 0 auto;
 
   p {
-      color: $dark;
-      text-align: justify;
-      font-size: .9rem;
-      margin-bottom: 1rem;
+    color: $dark;
+    text-align: justify;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 
   h1 {
@@ -28,9 +31,9 @@
   }
 
   h2 {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin-bottom: .25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
   }
 
   h3 {
@@ -43,7 +46,6 @@
     margin-bottom: 2rem;
     margin-top: 3rem;
   }
-
 }
 
 .modal-background {
