@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => (
+const Verticals = () => (
   <div>
     <div className='columns'>
       <div className='column'>
@@ -34,3 +34,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Verticals;

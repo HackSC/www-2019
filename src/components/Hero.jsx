@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
 
 import '../styles/hero.scss';
 
-export default props => (
+const Hero = () => (
   <header>
     <div className="hero is-primary is-fullheight">
       <div className="hero-body">
@@ -56,3 +56,5 @@ export default props => (
     </div>
   </header>
 );
+
+export default Hero;

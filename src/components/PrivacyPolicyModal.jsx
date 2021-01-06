@@ -2,7 +2,7 @@ import React from "react"
 
 import "../styles/privacy.scss"
 
-export default (props) => {
+const PrivacyPolicyModal = (props) => {
   const modalClass = (props.isActive) ? 'modal is-active' : 'modal'
 
   return (
@@ -86,3 +86,5 @@ export default (props) => {
     </div>
   )
 }
+
+export default PrivacyPolicyModal;

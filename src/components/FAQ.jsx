@@ -2,7 +2,7 @@ import React from "react"
 
 import Question from './Question';
 
-export default (props) => (
+const FAQ = () => (
   <div className="columns">
     <div className="column">
       <Question
@@ -43,4 +43,6 @@ export default (props) => (
       />
     </div>
   </div>
-)
+);
+
+export default FAQ;

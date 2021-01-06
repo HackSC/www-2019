@@ -36,7 +36,7 @@ import lyft from '../assets/sponsors/lyft.svg';
 
 import '../styles/sponsors.scss';
 
-export default props => (
+const Sponsors = (props) => (
   <div className="sponsors-gallery">
     <div className="top-tier">
       <a href="//facebook.com" target="_blank" rel="noopener noreferrer">
@@ -196,3 +196,5 @@ export default props => (
     </div>
   </div>
 );
+
+export default Sponsors;

@@ -2,7 +2,7 @@ import React from "react"
 
 import '../styles/section.scss'
 
-export default (props) => (
+const Section = (props) => (
   <section className={"section " + props.sectionClass}>
     <div className="container">
       <h2 className={"title " + props.sectionClass}>{props.title}</h2>
@@ -10,4 +10,6 @@ export default (props) => (
       {props.children}
     </div>
   </section>
-)
+);
+
+export default Section;

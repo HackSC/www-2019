@@ -4,7 +4,7 @@ import '../styles/teamModal.scss';
 
 import TeamMember from './TeamMember';
 
-export default props => {
+const TeamModal = (props) => {
   const modalClass = props.isActive ? 'modal is-active' : 'modal';
 
   return (
@@ -334,3 +334,5 @@ export default props => {
     </div>
   );
 };
+
+export default TeamModal;

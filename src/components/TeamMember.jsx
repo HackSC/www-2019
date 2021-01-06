@@ -1,6 +1,6 @@
 import React from "react"
 
-export default (props) => {
+const TeamMembers = (props) => {
   return (
     <div className={"column team-member " + props.colClass}>
       <a href={props.link} target="_blank" rel="noopener noreferrer">
@@ -12,3 +12,5 @@ export default (props) => {
     </div>
   )
 }
+
+export default TeamMembers;

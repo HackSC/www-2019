@@ -1,11 +1,6 @@
 import React from "react";
 import ReactGA from "react-ga";
-
 import PropTypes from "prop-types";
-
-
-
-
 
 class WithGA extends React.Component {
     analyticEvent =() => {
